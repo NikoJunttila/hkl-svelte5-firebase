@@ -8,6 +8,15 @@ html,body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+input[type="text"],input[type="number"]{
+  @apply input input-bordered input-secondary w-full max-w-xs
+}
+textarea{
+  @apply textarea textarea-bordered
+}
+label{
+  @apply label
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));

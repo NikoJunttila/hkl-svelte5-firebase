@@ -172,7 +172,7 @@
 				{/if}
 				<div class="flex gap-2 justify-center items-center">
 					<label for="category">Category:</label>
-					<input class="p-2" name="category" type="text" bind:value={category} />
+					<input class="p-2 input input-bordered input-secondary" name="category" type="text" bind:value={category} />
 				</div>
 				<button type="button" onclick={() => createCategory()} class="btn">Add</button>
 			</div>

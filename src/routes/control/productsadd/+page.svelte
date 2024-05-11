@@ -164,7 +164,7 @@
 					</label>
 					<label>
 						Stock:
-						<input type="number" step="1" bind:value={formData.stock} />
+						<input class="input input-bordered input-secondary w-full max-w-xs" type="number" step="1" bind:value={formData.stock} />
 					</label>
 					<!--                     
                       <label>
@@ -174,7 +174,7 @@
 
 					<label>
 						Category:
-						<select required bind:value={formData.categoryID}>
+						<select class="select w-full bg-base-300" required bind:value={formData.categoryID}>
 							{#each categories as category}
 								<option value={category.id}>{category.name}</option>
 							{/each}
@@ -218,11 +218,12 @@
         </div> -->
 </div>
 <style>
-	input{
+/* 	input{
 		width: 100%;
 		padding: 10px;
 		border-radius: 10px;
-	}
+		@apply input input-bordered input-secondary w-full max-w-xs
+	} */
 	label{
 		width: 100%;
 	}

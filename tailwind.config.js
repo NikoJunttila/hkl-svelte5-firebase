@@ -11,8 +11,24 @@ export default {
     themes: [
       {
         mytheme: {
-        
-"primary": "#d8b4fe",
+          "primary": "#fef08a",
+
+          "secondary": "#e7e5e4",
+         
+          "accent": "#00ffff",
+         
+          "neutral": "#9333ea",
+         
+          "base-100": "#c084fc",
+         
+          "info": "#60a5fa",
+         
+          "success": "#4ade80",
+         
+          "warning": "#eab308",
+         
+          "error": "#f43f5e",
+/* "primary": "#d8b4fe",
 //buttons
 "secondary": "#99f6e4",
 //a links
@@ -30,7 +46,7 @@ export default {
         
 "warning": "#ff8a00",
         
-"error": "#ff7c96",
+"error": "#ff7c96", */
         },
       },
     ],

@@ -5,8 +5,8 @@
         text-align: center;
     }
 </style>
-<div class="bg-base-200 flex flex-col justify-center items-center py-3">
-    <div class="bg-base-300 title sm:w-[300px] lg:w-[500px] py-1">
+<div class="bg-secondary flex flex-col justify-center items-center py-3">
+    <div class="bg-neutral title sm:w-[300px] lg:w-[500px] py-1">
         <h3 class="px-3">Yhteystiedot</h3>
     </div>
 <h3 class="mt-3">Hyvinvointikeskus Luxus</h3>
