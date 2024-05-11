@@ -103,6 +103,7 @@
         <p>amount: {c.amount}</p>
         <p>category: {c.category}</p>
 		<p>Apply to already discounted: {c.discount}</p>
+		<p>minimi arvo: {c.minTotal}</p>
         <button class="btn my-2 bg-secondary" onclick={() => deleteLocal(c.id,index)}>Delete</button>
     </div>
     {/each}

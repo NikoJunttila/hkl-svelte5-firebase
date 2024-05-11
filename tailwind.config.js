@@ -22,8 +22,7 @@ export default {
         
 "base-100": "#bef264",
 
-"base-200": "#a3e635",
-"base-300": "#16a34a",
+
 
 "info": "#00a8ce",
         

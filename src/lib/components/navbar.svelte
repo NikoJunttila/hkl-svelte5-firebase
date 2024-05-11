@@ -15,7 +15,7 @@ import { userData } from "$lib/firebase";
 	<a class="btn btn-sm h-14" href="/store" rel="noreferrer"> Kauppa </a>
 	<a class="btn btn-sm h-14" href="/matka">Muutoksen <br> matka</a>
 	<a class="btn btn-sm h-14   hidden sm:flex justify-center items-center" href="/galleria"> Galleria </a>
-	<div class="relative">
+	<div class="relative mr-auto sm:mr-0">
 		<button class="btn btn-sm h-14 showMoreBtn">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 16 16"
 				><path
@@ -29,15 +29,26 @@ import { userData } from "$lib/firebase";
 			>
 		</button>
 		<ul
-			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer translate-x-[-25px] p-2 rounded">
+			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer -translate-x-[125px] sm:-translate-x-[25px] p-2 rounded">
 			<a href="/galleria" class="hover:bg-base-100 sm:hidden"> Galleria </a>
 			<a href="/info/ajanvaraus"><li class="hover:bg-base-100">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-base-100">Susanna</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-base-100">Yhteystiedot</li></a>
 			<a href="/info/tietosuoja"><li class="hover:bg-base-100">Tietosuojaseloste</li></a>
+			<div class="avatar">
+				<div class="rounded w-14 h-14 hover:bg-base-100">
+					<a href="kirjaudu">
+					{#if $userData}
+					<img src={$userData.photo} alt="user" />
+					{:else}
+					<svg xmlns="http://www.w3.org/2000/svg" width="3.5rem" height="3.5rem" viewBox="0 0 24 24"><path fill="currentColor" d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"/></svg>
+					{/if}
+				</a>
+				</div>
+			  </div>
 		</ul>
 	</div>
-	<div class="ml-auto mr-2 grid place-items-center">
+	<div class="ml-auto mr-2 hidden sm:block">
 		<div class="avatar">
 			<div class="rounded w-14 h-14">
 				<a href="kirjaudu">
@@ -76,11 +87,6 @@ import { userData } from "$lib/firebase";
 	}
 	li {
 		padding: 3px 0;
-	}
-	@media (max-width: 500px) {
-		ul {
-			transform: translateX(-80px);
-		}
 	}
 	a {
 		text-decoration: none !important;
