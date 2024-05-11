@@ -10,15 +10,12 @@ function loadFromLocalStorage(){
 		return []; // Default to an empty array if no products are found
 	} 
   };
-  // @ts-ignore
-   function saveToLocalStorage(products){
-	localStorage.setItem('products', JSON.stringify(products));
-  }; 
   
 export function createProductStore() {
 	/** @type {import("$lib/customTypes").Product[]}*/
 	let products = $state(loadFromLocalStorage())
 	let total = $derived(products.reduce((acc, product) => {return acc + product.discountedPrice;}, 0));
+
 	function add(/** @type {import("$lib/customTypes").Product} */ p, /** @type {number} */ amount){
 		for (let i=0;i<amount;i++){
 			if(p.discountPercentage){
@@ -28,7 +25,7 @@ export function createProductStore() {
 			}
 			notifications.success("New product added to cart",3000)
 			products.push(p)
-			saveToLocalStorage(products)
+			localStorage.setItem('products', JSON.stringify(products));
 		}
 	}
 	/**
@@ -36,7 +33,7 @@ export function createProductStore() {
 	 */
 	function removeItem(index){
 		products.splice(index,1)
-		saveToLocalStorage(products)
+		localStorage.setItem('products', JSON.stringify(products));
 	}
 	return {
 		get products() { return products },

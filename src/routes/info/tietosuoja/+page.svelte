@@ -14,7 +14,7 @@ Rekisteriseloste on Henkilötietolain (523/1999) 10§ ja 24§ mukainen.</p>
 <h5 class="font-bold">Rekisterinpitäjä</h5>
 <p>Hyvinvointikeskus Luxus</p>
 <p>Y-tunnus 1773403-5</p>
-<a href="www.hyvinvointikeskusluxus.com" class="dark:text-[var(--dark-green)] text-[var(--light-green)]">www.hyvinvointikeskusluxus.com</a>
+<a href="www.hyvinvointikeskusluxus.com" class="text-green-600">www.hyvinvointikeskusluxus.com</a>
 <br>
 <h5>Yhteyshenkilö rekisteriä koskevissa asioissa</h5>
 <p>Susanna Höijer</p>

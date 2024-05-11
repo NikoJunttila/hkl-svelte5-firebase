@@ -1,7 +1,7 @@
 
 
 <div class="max-w-[50ch]">
-    <h2 class="pb-5">Heissan Sinulle!</h2>
+    <h2 class="pb-5 text-2xl font-bold">Heissan Sinulle!</h2>
     <p>Olen Susanna Höijer ja toimin yrittäjänä Hyvinvointikeskus Luxuksessa
 Olen toiminut yrittäjänä; Parantajana, näkijänä ja hierojana vuodesta 2002 saakka sekä
 kouluttanut myös muita toimimaan energiaparantajina.</p>

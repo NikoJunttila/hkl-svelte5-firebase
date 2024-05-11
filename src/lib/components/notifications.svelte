@@ -2,7 +2,7 @@
 // @ts-nocheck
     import { flip } from "svelte/animate";
     import { fly } from "svelte/transition";
-    import { notifications } from "./stores/notifications.svelte";
+    import { notifications } from "../stores/notifications.svelte";
 
     const themes = {
         error: "#E26D69",

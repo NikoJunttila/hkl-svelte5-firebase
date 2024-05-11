@@ -1,10 +1,10 @@
 <script>
-    import Contact from "$lib/contact.svelte";
+    import Contact from "$lib/components/Contact.svelte";
     let {children} = $props()
 </script>
 
-<div class="ml-2 py-10 flex flex-col justify-center align-middle">
-    <div class="grid place-items-center pb-5">
+<div class="ml-2 pt-5 flex flex-col justify-center align-middle">
+    <div class="grid place-items-center pb-5 min-h-[50vh]">
         {@render children()}
     </div>
     <div>

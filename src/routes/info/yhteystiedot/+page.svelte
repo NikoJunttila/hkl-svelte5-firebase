@@ -1,9 +1,9 @@
 
 <div class="max-w-[50ch]">
-    <div>
-        <h3 class='text-green-600'>Yhteystiedot</h3>
+    <div class="bg-base-300 rounded-2xl text-center text-2xl py-3">
+        <h3>Yhteystiedot</h3>
     </div>
-<h2 class='text-green-600] mb-5'>Hyvinvointikeskus Luxus</h2>
+<h2 class='text-green-600 mb-5 text-center my-2 text-2xl'>Hyvinvointikeskus Luxus</h2>
 <p class="font-bold">Vastaanotto:</p>
 <p>Kaltsilantie 118, 38220 Sastamala</p>
 <p class="font-bold">myös etävastaanotto</p>

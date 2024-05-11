@@ -1,5 +1,4 @@
 <script>
-
     /**
 	 * @type {any[]}
 	 */
@@ -14,11 +13,11 @@
 <style>
   
 </style>
-<div class="grid grid-cols-1 place-items-center">
+<div class="grid grid-cols-1 place-items-center my-2">
 	{#each galleria as photo}
-		<figure>
+		<figure class="flex flex-col justify-center items-center my-2">
 			<img loading="lazy" class="rounded mx-1" src={photo.img} alt="kuva">
-			<figcaption class="my-2 text-center">{photo.text}</figcaption>
+			<figcaption class="my-2 text-xl max-w-[70ch] text-center">{photo.text}</figcaption>
 		</figure>
 	{:else}
 		<!-- this block renders when photos.length === 0 -->

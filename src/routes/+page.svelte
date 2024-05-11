@@ -1,7 +1,7 @@
-<script lang>
-	import Landing from '$lib/landing.svelte';
-	import Contact from '$lib/contact.svelte';
-	import Quote from '$lib/quote.svelte';
+<script>
+	import Landing from '$lib/components/landing.svelte';
+	import Contact from '$lib/components/Contact.svelte';
+	import Quote from '$lib/components/quote.svelte';
 	import { notifications } from '$lib/stores/notifications.svelte';
 
 	/**
@@ -32,7 +32,7 @@
 	<title>Hyvinvointikeskus Luxus</title>
 </svelte:head>
 
-<main class="flex flex-col">
+<main class="flex flex-col text-xl">
 	<Landing />
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div
@@ -99,16 +99,17 @@
 				<br />
 				1. Varaa ilmainen
 				<a
+				class="text-green-600 font-bold"
 					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA"
 					>kartoitusaika</a
 				>
 				jossa katsotaan mikä palvelu olisi sinulle sopivin.
 				<br />
-				2. Osta palvelu suoraan <a href="/kauppa">kaupasta</a> jolloin pääset sen jälkeen varaamaan
+				2. Osta palvelu suoraan <a class="text-green-600 font-bold" href="/kauppa">kaupasta</a> jolloin pääset sen jälkeen varaamaan
 				ajan hoitoon.
 				<br />
 				3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma
-				<a
+				<a class="text-green-600 font-bold"
 					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA"
 					>tutustumisaika täältä.</a
 				>
@@ -145,7 +146,7 @@
 
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div
-			class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] p-4 border-4 border-dashed dark:border-[var(--dark-green)] border-[var(--light-green)]"
+			class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] p-4 border-4 border-dashed border-green-400"
 		>
 			<h2 class="mb-2">Voimalause päivään</h2>
 			<Quote />
@@ -173,7 +174,7 @@
 	<div class="flex justify-center items-center">
 		<form
 			id="tilaus"
-			class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-base-300 rounded-md py-10"
+			class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-base-200 rounded-md py-10"
 			target="_blank"
 			method="post"
 			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"
@@ -197,18 +198,17 @@
 				maksuttoman Kiitollisuuden meditaation.
 			</p>
 			<br />
-			<span class="flex"
-				>Email:<input
-					class="ml-2 input variant-form-material"
+			<label class="flex justify-center items-center">Sposti:<input
+					class="ml-2 input bg-base-100 outline outline-3 outline-secondary"
 					type="text"
 					name="email"
 					placeholder="Sähköposti"
 					value=""
-				/></span
+				/></label
 			>
 			<button
 				onclick={() => notifications.success('Tilattu uutiskirje', 5000)}
-				class="btn"
+				class="btn bg-base-300"
 				type="submit"
 				value="Liity">Tilaa</button
 			>
@@ -266,6 +266,9 @@
       transition: none;
     }
   }
+  .bigFont{
+		font-size: 1.25rem !important;
+	}
 
 
 </style>

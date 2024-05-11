@@ -1,11 +1,11 @@
 <script>
 
-	import Navbar from '$lib/navbar.svelte';
-	import Footer from '$lib/footer.svelte';
-	import PageTransition from '$lib/transition.svelte'
+	import Navbar from '$lib/components/navbar.svelte';
+	import Footer from '$lib/components/footer.svelte';
+	import PageTransition from '$lib/components/transition.svelte'
 	import "../app.css"
 import { user, userData } from "$lib/firebase";
-import NotificationsComponent from "$lib/notifications.svelte";
+import NotificationsComponent from "$lib/components/notifications.svelte";
 let { children, data } = $props();
 $user;
 $userData;

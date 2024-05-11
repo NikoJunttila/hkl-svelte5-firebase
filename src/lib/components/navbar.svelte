@@ -1,6 +1,11 @@
+<script>
+// @ts-nocheck
+
+import { userData } from "$lib/firebase";
+</script>
 <header class="bg-primary flex w-full justify-center items-center py-4 gap-2">
-	<div class="mr-auto">
-		<a href="/"><img width="30px" height="30px" src="/favicon.png" alt="icon" /></a>
+	<div class="mr-auto ml-2">
+		<a href="/"><img width="60px" height="60px" src="/favicon.png" alt="icon" /></a>
 	</div>
 	<a class="btn btn-sm h-14" href="/" rel="noreferrer">
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -32,8 +37,18 @@
 			<a href="/info/tietosuoja"><li class="hover:bg-base-100">Tietosuojaseloste</li></a>
 		</ul>
 	</div>
-	<div class="ml-auto mr-2">
-		<a href="kirjaudu" class="btn">login</a>
+	<div class="ml-auto mr-2 grid place-items-center">
+		<div class="avatar">
+			<div class="rounded w-14 h-14">
+				<a href="kirjaudu">
+				{#if $userData}
+				<img src={$userData.photo} alt="user" />
+				{:else}
+				<svg xmlns="http://www.w3.org/2000/svg" width="3.5rem" height="3.5rem" viewBox="0 0 24 24"><path fill="currentColor" d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"/></svg>
+				{/if}
+			</a>
+			</div>
+		  </div>
 	</div>
 </header>
 
