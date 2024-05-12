@@ -73,6 +73,8 @@
 		category: '',
 		categoryID: 1,
 		thumbnail: '',
+		link:"",
+		linkType:"",
 		images: [""]
 	});
 	function createItem() {
@@ -108,6 +110,8 @@
     brand: "",
     category: "",
     categoryID: 1,
+	link:"",
+	linkType:"",
     thumbnail: "",
     images: [""]
   };
@@ -165,6 +169,12 @@
 					<label>
 						Stock:
 						<input class="input input-bordered input-secondary w-full max-w-xs" type="number" step="1" bind:value={formData.stock} />
+					</label>
+					<label class="label">Linkin url jos on:
+						<input class="input" type="text" id="rating" bind:value={formData.link} />
+					</label>
+					<label class="label">Mikä linkin tyyppi on. pdf/video:
+						<input class="input" type="text" id="rating" bind:value={formData.linkType} />
 					</label>
 					<!--                     
                       <label>
