@@ -145,7 +145,7 @@ async function multipleUpload(e) {
             </label>
 			{#each formData.images as img, i}
 			<img src={img} alt="stuff" width="100px" height="100px">
-			<button class="btn" onclick={()=> formData.images.splice(i,1)}>remove</button>
+			<button class="btn btn-warning" onclick={()=> formData.images.splice(i,1)}>remove</button>
 			{/each}
 			<label>
 				Upload other images
@@ -165,7 +165,7 @@ async function multipleUpload(e) {
 			<label class="label">Mikä linkin tyyppi on. pdf/video:
 				<input class="input" type="text" id="rating" bind:value={formData.linkType} />
 			</label>
-			<button class="btn w-full mt-2" type="button" onclick={() => updateSecondBtn()}>Update</button>
+			<button class="btn w-full mt-2 btn-secondary" type="button" onclick={() => updateSecondBtn()}>Update</button>
 		</form>
 	</div>
 </dialog>

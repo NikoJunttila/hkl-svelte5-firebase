@@ -35,8 +35,8 @@
     <form class="form-control">
         <label class="label">
             uusi teksti kauppaa varten:
-            <textarea class="textarea p-2 m-2 bg-base-200" rows="4" bind:value={text}></textarea>
-            <button class="btn" onclick={() => updateText()}>päivitä</button>
+            <textarea class="textarea textarea-accent p-2 m-2 bg-base-200" rows="4" bind:value={text}></textarea>
+            <button class="btn btn-secondary" onclick={() => updateText()}>päivitä</button>
         </label>
     </form>
 </div>

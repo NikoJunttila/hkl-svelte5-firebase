@@ -115,7 +115,7 @@
 		<div class="modal-box">
 			<h3 class="font-bold text-lg">Close with esc or X</h3>
 			<form method="dialog">
-				<button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+				<button class="btn btn-sm  btn-circle btn-ghost absolute right-2 top-2">✕</button>
 			</form>
 			<div class="modal-action">
 				<form>
@@ -141,7 +141,7 @@
 					/>
 					<input type="text" name="dialogValsname" bind:value={dialogVals.name} />
 					<!-- if there is a button in form, it will close the modal -->
-					<button onclick={updateCategory} class="btn">Update</button>
+					<button onclick={updateCategory} class="btn btn-secondary">Update</button>
 				</form>
 			</div>
 		</div>
@@ -174,7 +174,7 @@
 					<label for="category">Category:</label>
 					<input class="p-2 input input-bordered input-secondary" name="category" type="text" bind:value={category} />
 				</div>
-				<button type="button" onclick={() => createCategory()} class="btn">Add</button>
+				<button type="button" onclick={() => createCategory()} class="btn btn-secondary">Add</button>
 			</div>
 		</form>
 	</div>
@@ -185,8 +185,8 @@
 					<p>{doc.name}</p>
 					<img class="w-f" src={doc.thumbnail} width="200px" height="200px" alt={doc.name} />
 					<p>sale: {doc.sale}</p>
-					<button class="btn" onclick={() => modalOpen(doc)}>edit</button>
-					<button class="btn" onclick={() => deleteLocal(doc.id)}>Delete</button>
+					<button class="btn btn-secondary" onclick={() => modalOpen(doc)}>edit</button>
+					<button class="btn btn-warning" onclick={() => deleteLocal(doc.id)}>Delete</button>
 				</div>
 			{/each}
 		{:else}

@@ -27,13 +27,13 @@
 					<input
 						required
 						bind:value={queryVal}
-						class="input w-full"
+						class="input w-full bg-base-300"
 						type="text"
 						name="query"
 						placeholder="What are you looking for?"
 					/>
 				</label>
-				<button type="submit" class="btn h-full">Search</button>
+				<button type="submit" class="btn p-5 h-full">Search</button>
 			</div>
 		</div>
 	</form>

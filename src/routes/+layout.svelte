@@ -16,7 +16,7 @@ $userData;
 	<Navbar />
 	<NotificationsComponent  />
 	<PageTransition key={data.url} duration={400}>
-		<div class="min-h-[70vh] flex flex-col">
+		<div class="min-h-[70vh] flex flex-col bg-gradient-to-b from-base-100 to-base-300">
 			{@render children()}
 		</div>
 	</PageTransition>

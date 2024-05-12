@@ -197,7 +197,7 @@
 				type="button" 
 				onclick={() => createItem()} 
 				disabled={!formData.title || !formData.description || !formData.categoryID}
-				class="btn disabled:bg-red-800 disabled:text-gray-500">
+				class="btn btn-secondary disabled:btn-warning disabled:text-gray-500">
 				Add</button>
 			</div>
 		</form>

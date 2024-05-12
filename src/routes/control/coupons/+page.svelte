@@ -91,7 +91,7 @@
 			<label>check this if coupon should work with already discounted items
 				<input class="checkbox-primary" type="checkbox" bind:checked={coupon.discount}> 
 			</label>
-			<button class="btn" type="submit">Create</button>
+			<button class="btn btn-secondary" type="submit">Create</button>
 		
 	</form>
 </div>
