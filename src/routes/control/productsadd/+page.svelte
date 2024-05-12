@@ -34,6 +34,24 @@
 			uploading = false; // Ensure uploading is set to false even if an error occurs
 		}
 	}
+
+	// @ts-ignore
+	async function uploadPDF(e) {
+		try {
+			uploading = true;
+			const file = e.target.files[0];
+			console.log(file)
+			// @ts-ignore
+			const storageRef = ref(storage, `store/pdfs/${file.name}`);
+			const result = await uploadBytes(storageRef, file);
+			formData.link = await getDownloadURL(result.ref);
+			uploading = false;
+		} catch (error) {
+			console.error('An error occurred during the upload process:', error);
+			// Handle the error appropriately, e.g., show an error message to the user
+			uploading = false; // Ensure uploading is set to false even if an error occurs
+		}
+  }
 	// @ts-ignore
 	async function multipleUpload(e) {
   try {
@@ -116,9 +134,6 @@
     images: [""]
   };
 	}
-	$effect(() => {
-		console.log(categories)
-	})
 </script>
 
 <div>
@@ -169,6 +184,11 @@
 					<label>
 						Stock:
 						<input class="input input-bordered input-secondary w-full max-w-xs" type="number" step="1" bind:value={formData.stock} />
+					</label>
+					<label class="label">
+						Lataa pdf. muuten laita linkki alempana
+						<input 	class="file-input file-input-bordered w-full max-w-xs"
+						type="file" accept=".pdf" onchange={uploadPDF} />
 					</label>
 					<label class="label">Linkin url jos on:
 						<input class="input" type="text" id="rating" bind:value={formData.link} />
