@@ -30,10 +30,10 @@
 						class="input w-full bg-base-300"
 						type="text"
 						name="query"
-						placeholder="What are you looking for?"
+						placeholder="Etsi tuotteita?"
 					/>
 				</label>
-				<button type="submit" class="btn bg-base-100 p-5 h-full">Search</button>
+				<button type="submit" class="btn bg-base-100 p-5 h-full">Etsi</button>
 			</div>
 		</div>
 	</form>

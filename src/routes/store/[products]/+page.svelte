@@ -9,7 +9,7 @@
 </script>
 <div class="mx-3 lg:mx-8">
     <ol class="flex gap-3 ml-5 mt-1">
-        <li class="crumb"><a href="/store">Categories</a></li>
+        <li class="crumb"><a href="/store">Kategoriat</a></li>
         <li class="crumb-separator" aria-hidden>&rsaquo;</li>
         <li class="crumb"><a href={`/store/${productsData[0].categoryID}`}>{productsData[0].category}</a></li>
       </ol>

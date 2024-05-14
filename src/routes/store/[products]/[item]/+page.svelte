@@ -20,7 +20,7 @@
 	<meta name="description" content={item.title} />
 </svelte:head>
 <ol class="flex gap-3 ml-5 mt-1">
-	<li class="crumb"><a href="/store">Categories</a></li>
+	<li class="crumb"><a href="/store">Kategoriat</a></li>
 	<li class="crumb-separator" aria-hidden>&rsaquo;</li>
 	<li class="crumb"><a href={`/store/${item.categoryID}`}>{item.category}</a></li>
 	<li class="crumb-separator" aria-hidden>&rsaquo;</li>
@@ -40,34 +40,34 @@
 		{/if}
 		{#if item.discountPercentage}
         <div class="absolute left-4 p-1 text-2xl top-4 font-extrabold titleBg text-red-500">
-            Discount: {item.discountPercentage}%
+            Alennus: {item.discountPercentage}%
         </div>
 		{/if}
     </div>
 	<div class="flex flex-col gap-3 mx-2 mt-5 sm:mt-0 text-center">
 		<h1 class="text-2xl font-bold">{item.title}</h1>
-		<span class={item.discountPercentage > 1 ? 'line-through' : 'font-extrabold text-2xl'}> price {item.price}€</span>
+		<span class={item.discountPercentage > 1 ? 'line-through' : 'font-extrabold text-2xl'}> Hinta: {item.price}€</span>
 		{#if item.discountPercentage}
         <p>
             <span class="font-bold text-red-500">
-                Discounted price: {Math.ceil(item.price * ((100 - item.discountPercentage) / 100))}€<br />
-                  Saving: {Math.ceil(item.price * (item.discountPercentage / 100))}€
+                Alennettu hinta: {Math.ceil(item.price * ((100 - item.discountPercentage) / 100))}€<br />
+                  Säästöä: {Math.ceil(item.price * (item.discountPercentage / 100))}€
             </span>
         </p>
 		{/if}
 		{#if item.stock < 10}
-			<h5 class="text-red-400">Items left in stock: {item.stock}</h5>
+			<h5 class="text-red-400">Varastossa: {item.stock}</h5>
 		{/if}
-		<p class="mt-2">Item description: {item.description}</p>
+		<p class="mt-2">Selitys: {item.description}</p>
 		<div class="my-2">
-			<p class="text-center">Amount:</p>
+			<p class="text-center">Määrä:</p>
 			<div class="flex gap-2 items-center justify-center">
 				<button disabled={amount==1} onclick={() => amount--} class="btn text-3xl font-bold bg-secondary">-</button>
 				<input type="number" min=1 class="input bg-base-300 w-20 text-center" name="amount" bind:value={amount}>
 				<button onclick={() => amount++} class="btn text-3xl font-bold bg-secondary">+</button>
 			</div>	
 		</div>
-		<button onclick={() => productsStore.newProduct(item,amount)}  class="btn p-9 bg-primary hover:bg-secondary duration-100">Add to shopping cart</button>
+		<button onclick={() => productsStore.newProduct(item,amount)}  class="btn p-9 bg-primary hover:bg-secondary duration-100">Lisää ostoskoriin</button>
 	</div>
 </div>
 <style>

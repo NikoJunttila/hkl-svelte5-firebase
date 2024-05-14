@@ -4,6 +4,7 @@
     import { doc, getDoc } from "firebase/firestore";
     import { db } from '$lib/firebase';
     import { page } from '$app/stores';
+	import Contact from '$lib/components/Contact.svelte';
     /**
 	 * @type {import("@firebase/firestore").DocumentData | null}
 	 */
@@ -25,9 +26,10 @@
         localStorage.removeItem("products")
     })
 </script>
-<h1 class="text-center py-3 text-2xl">Thank you for the order! We will process it as fast as possible</h1>
+<h1 class="text-center py-3 text-2xl">Kiitos tilauksesta! Tilaus käsitellään mahdollisimman nopeasti.</h1>
 {#if docData}
 <Order {...docData}></Order>
 {:else}
 <p>loading order data...</p>
 {/if}
+<Contact></Contact>

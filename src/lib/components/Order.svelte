@@ -37,22 +37,22 @@
   </style>
   
   <div class="order-container">
-    <h2>Order #{orderNumber}</h2>
+    <h2>Tilausnumero #{orderNumber}</h2>
     <div class="order-details">
       <div class="order-detail">
-        <span class="order-detail-label">Date:</span>
+        <span class="order-detail-label">Aika:</span>
         <span>{date}</span>
       </div>
       <div class="order-detail">
-        <span class="order-detail-label">Status:</span>
+        <span class="order-detail-label">Tila:</span>
         <span>{status}</span>
       </div>
       <div class="order-detail">
-        <span class="order-detail-label">Name:</span>
+        <span class="order-detail-label">Nimi:</span>
         <span>{name}</span>
       </div>
-      <p class="text-gray-600">Total: {total}</p>
-      <h3>Items:</h3>
+      <p class="text-gray-600">Yhteishinta: {total}</p>
+      <h3>Tuotteet:</h3>
       <div class="grid-container">
         {#each items as item}
         <div class="card">

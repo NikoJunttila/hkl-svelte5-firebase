@@ -4,23 +4,23 @@ let { categoryID, id, thumbnail, title,description,discountPercentage,price} = $
 </script>
 <a href={`/store/${categoryID}/${id}`}>
     <div class="relative h-full bg-primary rounded-md hover:drop-shadow-md hover:-translate-y-1 duration-100  card2 ">
-        <img class="h-[50%] w-full rounded" src={thumbnail} alt={title}>
+        <img class="h-[35%] sm:h-[50%] w-full rounded" src={thumbnail} alt={title}>
         <div class="flex flex-col items-center gap-1 h-[50%]">
             <p class="text-2xl font-bold mt-2">{title}</p>
             <p class="line-clamp-2">{description}</p>
-            <span class="{discountPercentage > 1 ? "line-through" : ""}"> price {price}€</span>
+            <span class="{discountPercentage > 1 ? "line-through" : ""}"> Hinta {price}€</span>
             {#if discountPercentage}
             <div class="absolute left-4 p-1 text-xl top-4 font-bold titleBg text-red-500">
-                Discount: {discountPercentage}%
+                Alennus: {discountPercentage}%
             </div>
             <p><span class="font-bold text-red-500">
-                New price: {Math.ceil(price * ((100 - discountPercentage)/100))}€<br>
+                Uusi hinta: {Math.ceil(price * ((100 - discountPercentage)/100))}€<br>
                 <!--   Saving: {Math.ceil(p.price * (p.discountPercentage / 100))}€ -->
             </span>
         </p>
         {/if}
     </div>
-    <span class="btn">Buy now</span>
+    <span class="btn btn-secondary mb-1">Osta nyt</span>
 </div>
 </a>
     
