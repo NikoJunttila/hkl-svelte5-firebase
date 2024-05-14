@@ -33,7 +33,7 @@
 						placeholder="What are you looking for?"
 					/>
 				</label>
-				<button type="submit" class="btn p-5 h-full">Search</button>
+				<button type="submit" class="btn bg-base-100 p-5 h-full">Search</button>
 			</div>
 		</div>
 	</form>

@@ -9,14 +9,27 @@ html,body{
     overflow-x: hidden;
 }
 input[type="text"],input[type="number"]{
-  @apply input input-bordered input-secondary w-full max-w-xs
+  @apply input input-bordered input-secondary w-full max-w-xs ml-2
+}
+input[type="file"]{
+  @apply file-input file-input-secondary w-full max-w-xs ml-1
+}
+input[type="checkbox"]{
+  @apply  checkbox checkbox-secondary
+}
+select{
+  @apply select select-secondary w-full max-w-xs ml-2
 }
 textarea{
-  @apply textarea textarea-bordered
+  @apply textarea textarea-secondary
 }
 label{
   @apply label
 }
+button{
+  @apply btn btn-secondary
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -32,6 +45,3 @@ label{
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
   }
-	.shader{
-		filter:drop-shadow(5px 5px 18px #6ee7b7)
-	}
