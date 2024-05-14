@@ -174,7 +174,7 @@
 	<div class="flex justify-center items-center">
 		<form
 			id="tilaus"
-			class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-base-200 rounded-md py-10"
+			class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary rounded-md py-10"
 			target="_blank"
 			method="post"
 			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"

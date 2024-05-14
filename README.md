@@ -1,1 +1,1 @@
-website for https://hyvinvointikeskusluxus.fi
+website for https://hkl-svelte5-firebase.vercel.app/
