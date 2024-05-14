@@ -15,7 +15,7 @@
         <li class="crumb-separator" aria-hidden>&rsaquo;</li>
         <li class="crumb"><a href={`/store/${productsData[0].categoryID}`}>{productsData[0].category}</a></li>
       </ol>
-    <div class="grid-container gap-3">
+    <div class="grid-container gap-3 py-4">
         {#each productsData as p}
         <StoreItem {...p}></StoreItem>
         {/each}

@@ -1,12 +1,8 @@
 <script>
 // @ts-nocheck
-
-  
     let {date,items, orderNumber, status, name,total } = $props();
-  
-
   </script>
-  
+
   <style>
     .order-container {
       border: 1px solid #ccc;
@@ -57,9 +53,12 @@
         {#each items as item}
         <div class="card">
           <a href={`/store/1/${item.id}`}>
-            <img width="200px" height="200px" src={item.thumbnail} alt={item.item}>
-            <p>{item.item} - ${item.price}</p>
+          <img width="200px" height="200px" src={item.thumbnail} alt={item.item}>
           </a>
+            <p>{item.item} - ${item.price}</p>
+            {#if item.link}
+            <a href={item.link} target="_blank">{item.linkType} linkki tuotteeseen</a>
+            {/if}
         </div>
         {/each}
       </div>

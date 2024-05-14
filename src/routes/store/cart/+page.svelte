@@ -158,7 +158,7 @@
 		<div class="flex justify-center items-center pt-5">
 			<form class="form-control grid gap-2 pb-5">
 				<label
-					>Extra info:
+					>Extra info (Puhelin numero yms jos tarvitsee tuotteita varten):
 					<textarea bind:value={extratext} id="extratext"></textarea>
 				</label>
 				<label
