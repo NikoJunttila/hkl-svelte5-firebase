@@ -52,7 +52,7 @@ export async function POST({ request }) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                to: "nikosamulijunttila@gmail.com",
+                to: "info.hyvinvointikeskusluxus@gmail.com",
                 templateId:"d-ca49e5f63326447a986deb80e626d231",
                 dynamicTemplateData:{orderNum:orderNumber}
             }),

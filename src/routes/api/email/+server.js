@@ -8,7 +8,7 @@ export async function POST({request}) {
     
     const msg = {
         to,
-        from: 'randomderp98@gmail.com', // Replace with your verified sender email
+        from: 'info.hyvinvointikeskusluxus@gmail.com', // Replace with your verified sender email
         templateId: templateId, // Use the dynamic template ID from SendGrid
         dynamicTemplateData: dynamicTemplateData,
     };
