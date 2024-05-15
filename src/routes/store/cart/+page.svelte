@@ -15,7 +15,7 @@
 	let couponCode = $state("");
 	async function applyCoupon() {
 		if (couponApplied) {
-			notifications.error('One coupon already applied', 3000);
+			notifications.error('Yksi kuponki lisätty jo', 3000);
 			return;
 		}
 		console.log('trying to add coupon');
@@ -23,23 +23,23 @@
 		// @ts-ignore
 		const found = await fetchDocumentsWhere('coupons', 'name', couponCode, 1);
 		if (found.length === 0) {
-			notifications.error('no coupon found with that value', 5000);
+			notifications.error('Ei kuponkia tällä koodilla', 5000);
 			return;
 		}
 		const coupon = found[0];
 		console.log(coupon);
 		if (coupon.name !== couponCode.trim().toLocaleLowerCase()) {
-			notifications.error('no coupon found with this code', 5000);
+			notifications.error('Ei kuponkia tällä koodilla', 5000);
 			return;
 		}
 		if (coupon.minTotal > total) {
-			notifications.error('Total value not enough for this coupon', 5000);
+			notifications.error('Yhteishinta ei tarpeeks tätä varten', 5000);
 			return;
 		}
 		if (coupon.type === 'fixed') {
 			total -= coupon.amount;
 			console.log(total);
-			notifications.success(`total price -${coupon.amount}`);
+			notifications.success(`Yhteishinta -${coupon.amount}`);
 			couponApplied = true;
 			validCoupon = coupon.id
 			return;
@@ -80,7 +80,9 @@
 				item: item.title,
 				price: item.discountedPrice,
 				thumbnail: item.thumbnail,
-				id: item.id
+				id: item.id,
+				link: item.link,
+				linkType:item.linkType
 			};
 		});
 		const batch = writeBatch(db);
@@ -151,7 +153,7 @@
 						{item.discountedPrice.toFixed(2)}€</span
 					>
 					<img class="rounded w-full h-full" src={item.thumbnail} alt={item.thumbnail} />
-					<button class="btn mt-auto" onclick={() => removeItem(index)}>Remove</button>
+					<button class="btn mt-auto" onclick={() => removeItem(index)}>Poista</button>
 				</div>
 			{/each}
 		</div>

@@ -57,7 +57,7 @@
           </a>
             <p>{item.item} - ${item.price}</p>
             {#if item.link}
-            <a href={item.link} target="_blank">{item.linkType} linkki tuotteeseen</a>
+            <a class="font-bold text-2xl" href={item.link} target="_blank">{item.linkType} linkki tuotteeseen</a>
             {/if}
         </div>
         {/each}

@@ -23,7 +23,7 @@ export function createProductStore() {
 			} else {
 				p.discountedPrice = p.price
 			}
-			notifications.success("New product added to cart",3000)
+			notifications.success("Uusi tuote lisätty",3000)
 			products.push(p)
 			localStorage.setItem('products', JSON.stringify(products));
 		}
