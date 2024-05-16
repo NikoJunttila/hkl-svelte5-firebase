@@ -15,7 +15,9 @@
 			coupon.category = "idk"
 		}
         coupon.name.trim().toLowerCase()
-		coupon.id = window.crypto.randomUUID();
+		if (!coupon.id){
+			coupon.id = window.crypto.randomUUID();
+		}
 		createSomething('coupons', coupon, coupon.id);
         notifications.success("New coupon added",5000)
 		coupon = {
@@ -61,13 +63,13 @@
 <div class="grid place-items-center">
 	<form onsubmit={createCoupon} class="grid gap-3 max-w-80">
 		<label class="label">
-			name:
+			Nimi:
 			<input class="input bg-base-300" type="text" bind:value={coupon.name} />
 		</label>
 		<label class="label"
-			>Category:
+			>Jos haluat vain yhdelle kategorialle toimivan:
 			<select class="select w-full bg-base-300" bind:value={coupon.categoryID}>
-				<option value="any">any</option>
+				<option value="any">Kaikki</option>
 				{#each data.categories as category}
 					<option value={category.id}>{category.name}</option>
 				{/each}
@@ -76,35 +78,38 @@
 			<label class="label">
 				type:
 				<select class="select w-full bg-base-300" bind:value={coupon.type}>
-					<option value="fixed">fixed</option>
-					<option value="percentage">percentage</option>
+					<option value="fixed">Kiinteä</option>
+					<option value="percentage">Prosentti</option>
 				</select>
 			</label>
 			<label class="label">
-				amount:
+				määrä:
 				<input class="input bg-base-300" type="number" bind:value={coupon.amount} />
 			</label>
 			<label class="label">
-				minium total for it to work:
+				minimi yhteishinta että toimii
 				<input class="input bg-base-300" type="number" bind:value={coupon.minTotal} />
 			</label>
-			<label>check this if coupon should work with already discounted items
+			<label>Paina jos alennus kuponki pitää toimia valmiiksi alennettuihin tuotteisiin
 				<input class="checkbox-primary" type="checkbox" bind:checked={coupon.discount}> 
 			</label>
-			<button class="btn btn-secondary" type="submit">Create</button>
+			<label>STRIPE ID jos käytät siellä luotua koodia muuten tyhjä
+				<input class="checkbox-primary" type="text" bind:value={coupon.id}> 
+			</label>
+			<button class="btn btn-secondary" type="submit">Lisää</button>
 		
 	</form>
 </div>
 <div class="grid-container mt-5">
     {#each coupons as c, index}
     <div class="grid grid-cols-1 place-items-center text-2xl bg-base-300">
-        <p>name: {c.name}</p>
-        <p>type: {c.type}</p>
-        <p>amount: {c.amount}</p>
-        <p>category: {c.category}</p>
-		<p>Apply to already discounted: {c.discount}</p>
+        <p>Nimi: {c.name}</p>
+        <p>tyyppi: {c.type}</p>
+        <p>määrä: {c.amount}</p>
+        <p>Kategoria: {c.category}</p>
+		<p>Toimii valmiiks alennettuihin tuotteisiin: {c.discount}</p>
 		<p>minimi arvo: {c.minTotal}</p>
-        <button class="btn my-2 bg-secondary" onclick={() => deleteLocal(c.id,index)}>Delete</button>
+        <button class="btn my-2 bg-secondary" onclick={() => deleteLocal(c.id,index)}>Poista</button>
     </div>
     {/each}
 </div>

@@ -74,11 +74,11 @@ export async function POST({ request }) {
 			const orderRef = doc(db, 'orders', orderNumber);
 			const orderAdminRef = doc(db, 'ordersAdmin', orderNumber);
 			batch.update(orderRef, {
-				payment: 'paid',
+				payment: 'maksettu',
                 name:session.customer_details?.name
 			});
 			batch.update(orderAdminRef, {
-				payment: 'paid',
+				payment: 'maksettu',
 				stripeSessionId: session.id,
                 name:session.customer_details?.name,
                 email:session.customer_details?.email,

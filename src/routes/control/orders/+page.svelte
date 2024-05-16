@@ -16,7 +16,7 @@
 	 */
     async function fetchOrders(processing) {
     const collectionRef = collection(db, "ordersAdmin");
-    const q = query(collectionRef, where("payment", '==', "paid"),where("status","==",processing));
+    const q = query(collectionRef, where("payment", '==', "maksettu"),where("status","==",processing));
     try {
         const snapshot = await getDocs(q);
         const returnVal = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
@@ -26,7 +26,7 @@
     }
     return [];
 }
-let orderStatus = $state("processing")
+let orderStatus = $state("käsitellään")
 // @ts-ignore
 $effect(async()=> {
     orders = await fetchOrders(orderStatus)
@@ -34,18 +34,18 @@ $effect(async()=> {
 </script>
 <div class="flex flex-col justify-center pb-5 items-center">
     <select bind:value={orderStatus}>
-        <option value="processing">New payments</option>
-        <option value="done">Processed payments</option>
+        <option value="käsitellään">Uudet tilaukset</option>
+        <option value="done">Käsitellyt tilaukset</option>
     </select>
     <div class="grid-container py-4 gap-3">
         {#each orders as order}
         <div class={order.status == "processing" ? 'bg-red-500' : 'bg-green-400'}>
             <div class="card text-black p-5 ">
                 <a href="/control/orders/{order.orderNumber}">
-                    <p>order#{order.orderNumber}</p>
-                    <p>name: {order.name}</p>
-                    <p>payment: {order.payment}</p>
-                    <p>status: {order.status}</p>
+                    <p>Tilaus#{order.orderNumber}</p>
+                    <p>Nimi: {order.name}</p>
+                    <p>Maksu: {order.payment}</p>
+                    <p>Tilanne: {order.status}</p>
                 </a>
             </div>
         </div>

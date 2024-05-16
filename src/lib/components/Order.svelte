@@ -33,6 +33,7 @@
   </style>
   
   <div class="order-container">
+    <a class="font-bold text-xl text-blue-500" href="https://booksalon.fi/hyvinvointikeskus-luxus">Tästä linkistä pääset ajanvaraukseen</a>
     <h2>Tilausnumero #{orderNumber}</h2>
     <div class="order-details">
       <div class="order-detail">

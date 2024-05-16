@@ -91,8 +91,8 @@
 				orderNumber: orderNumber,
 				extra: extratext,
 				total:total,
-				payment: 'processing',
-				status: 'processing',
+				payment: 'Ei vielä saatu',
+				status: 'käsitellään',
 				date: d,
 				name: '',
 				items: saveItems

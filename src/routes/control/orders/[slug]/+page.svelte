@@ -34,7 +34,7 @@
         });
         await batch.commit();
         docData.status = "done"
-        notifications.success("updated order",3000)
+        notifications.success("päivitetty",3000)
     } catch (e){
         notifications.error(`error:${e}`,3000)
     }
