@@ -30,6 +30,6 @@
 {#if docData}
 <Order {...docData}></Order>
 {:else}
-<p>loading order data...</p>
+<p>Ladataan tilaus dataa...</p>
 {/if}
 <Contact></Contact>

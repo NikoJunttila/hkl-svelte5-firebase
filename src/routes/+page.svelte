@@ -157,7 +157,7 @@
 			<div>
 				<img
 					loading="lazy"
-					src="https://i.imgur.com/tUuUTbr.jpg"
+					src="https://i.imgur.com/34LfzPl.jpeg"
 					alt="susanna"
 					class="shader rounded"
 				/>
