@@ -48,7 +48,7 @@
 			<div>
 				<img
 					class="shader min-w-[250px] min-h-[250px] rounded ml-2"
-					src="https://i.imgur.com/9TTYcth.jpeg"
+					src="https://i.imgur.com/h8QNWAA.png"
 					alt="hkl"
 				/>
 			</div>

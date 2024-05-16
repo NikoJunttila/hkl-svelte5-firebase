@@ -33,7 +33,7 @@
   </style>
   
   <div class="order-container">
-    <a class="font-bold text-xl text-blue-500" href="https://booksalon.fi/hyvinvointikeskus-luxus">Tästä linkistä pääset ajanvaraukseen</a>
+    <a class="font-bold text-xl text-blue-500 text-center" href="https://booksalon.fi/hyvinvointikeskus-luxus">Tästä linkistä pääset ajanvaraukseen</a>
     <h2>Tilausnumero #{orderNumber}</h2>
     <div class="order-details">
       <div class="order-detail">
@@ -48,7 +48,7 @@
         <span class="order-detail-label">Nimi:</span>
         <span>{name}</span>
       </div>
-      <p class="text-gray-600">Yhteishinta: {total}</p>
+      <p class="font-bold">Yhteishinta: {total}</p>
       <h3>Tuotteet:</h3>
       <div class="grid-container">
         {#each items as item}
@@ -58,7 +58,7 @@
           </a>
             <p>{item.item} - ${item.price}</p>
             {#if item.link}
-            <a class="font-bold text-2xl" href={item.link} target="_blank">{item.linkType} linkki tuotteeseen</a>
+            <a class="font-bold text-2xl text-blue-500" href={item.link} target="_blank">{item.linkType} linkki tuotteeseen</a>
             {/if}
         </div>
         {/each}
