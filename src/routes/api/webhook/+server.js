@@ -26,14 +26,8 @@ export async function POST({ request }) {
 	}
 	if (event.type === 'checkout.session.completed') {
 		const session = event.data.object;
-        console.log(`customer email: ${session.customer_email}`)
-        console.log(session)
 		// @ts-ignore
 		const orderNumber = session.metadata.order_number;
-        const templateData = {
-			first_name: session.customer_details?.name,
-			orderNum: orderNumber,
-		}
     try{
         const response = await fetch(`${env.BASE}/api/email`, {
             method: 'POST',
@@ -43,7 +37,7 @@ export async function POST({ request }) {
             body: JSON.stringify({
                 to: session.customer_details?.email,
                 templateId:"d-a7116bb1d25146e4b7c3b36cba8a8e53",
-                dynamicTemplateData:templateData
+                dynamicTemplateData:{orderNum:orderNumber}
             }),
         });
         const response2 = await fetch(`${env.BASE}/api/email`, {
