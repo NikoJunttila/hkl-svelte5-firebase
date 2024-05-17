@@ -14,10 +14,10 @@
 		} else{
 			coupon.category = "kaikki"
 		}
-        coupon.name.trim().toLowerCase()
 		if (!coupon.id){
 			coupon.id = window.crypto.randomUUID();
 		}
+		coupon.name = coupon.name.trim().toLocaleLowerCase()
 		createSomething('coupons', coupon, coupon.id);
         notifications.success("New coupon added",5000)
 		coupon = {
@@ -72,7 +72,7 @@
 		<label class="label"
 			>Jos haluat vain yhdelle kategorialle toimivan:
 			<select class="select w-full bg-base-300" bind:value={coupon.categoryID}>
-				<option selected value="any">Kaikki</option>
+				<option selected value="kaikki">Kaikki</option>
 				{#each data.categories as category}
 					<option value={category.id}>{category.name}</option>
 				{/each}
@@ -86,7 +86,7 @@
 				</select>
 			</label>
 			<label class="label">
-				määrä:
+				euro tai prosentti määrä:
 				<input class="input bg-base-300" type="number" bind:value={coupon.amount} />
 			</label>
 			<label class="label">

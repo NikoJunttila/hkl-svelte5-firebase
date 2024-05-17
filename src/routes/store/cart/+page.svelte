@@ -24,13 +24,12 @@
 		}
 		/** @type {import("$lib/customTypes").Coupon[]}*/
 		// @ts-ignore
-		const found = await fetchDocumentsWhere('coupons', 'name', couponCode, 1);
+		const found = await fetchDocumentsWhere('coupons', 'name', couponCode.trim().toLocaleLowerCase(), 1);
 		if (found.length === 0) {
 			notifications.error('Ei kuponkia tällä koodilla', 5000);
 			return;
 		}
 		const coupon = found[0];
-		console.log(coupon);
 		if (coupon.name !== couponCode.trim().toLocaleLowerCase()) {
 			notifications.error('Ei kuponkia tällä koodilla', 5000);
 			return;
