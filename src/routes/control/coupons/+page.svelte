@@ -8,11 +8,11 @@
 	let coupons = $state([]);
 	async function createCoupon() {
 		// @ts-ignore
-		const foundItem = data.categories.find(item => item.id === idToFind);
+		const foundItem = data.categories.find(item => item.id === coupon.categoryID);
 		if (foundItem){
 			coupon.category = foundItem.name
 		} else{
-			coupon.category = "idk"
+			coupon.category = "kaikki"
 		}
         coupon.name.trim().toLowerCase()
 		if (!coupon.id){
@@ -31,7 +31,10 @@
 		minTotal:0
 		};
 		// @ts-ignore
-        coupons = await fetchDocuments('coupons');
+		setTimeout(async() => {
+			// @ts-ignore
+			coupons = await fetchDocuments('coupons');
+		},300);
 	}
 
 	let coupon = $state({
@@ -69,7 +72,7 @@
 		<label class="label"
 			>Jos haluat vain yhdelle kategorialle toimivan:
 			<select class="select w-full bg-base-300" bind:value={coupon.categoryID}>
-				<option value="any">Kaikki</option>
+				<option selected value="any">Kaikki</option>
 				{#each data.categories as category}
 					<option value={category.id}>{category.name}</option>
 				{/each}
@@ -100,16 +103,16 @@
 		
 	</form>
 </div>
-<div class="grid-container mt-5">
+<div class="grid-container gap-2 mt-5 mx-3">
     {#each coupons as c, index}
-    <div class="grid grid-cols-1 place-items-center text-2xl bg-base-300">
+    <div class="grid rounded-md grid-cols-1 place-items-center text-2xl bg-secondary">
         <p>Nimi: {c.name}</p>
         <p>tyyppi: {c.type}</p>
         <p>määrä: {c.amount}</p>
         <p>Kategoria: {c.category}</p>
 		<p>Toimii valmiiks alennettuihin tuotteisiin: {c.discount}</p>
 		<p>minimi arvo: {c.minTotal}</p>
-        <button class="btn my-2 bg-secondary" onclick={() => deleteLocal(c.id,index)}>Poista</button>
+        <button class="btn my-2 bg-primary" onclick={() => deleteLocal(c.id,index)}>Poista</button>
     </div>
     {/each}
 </div>

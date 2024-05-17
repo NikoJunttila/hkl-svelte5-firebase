@@ -1,7 +1,7 @@
 <script>
 let { children,data } = $props();
 </script>
-<div class="flex bg-base-300 items-center justify-center flex-wrap gap-4 h-20">
+<div class="flex bg-base-300 items-center justify-center flex-wrap gap-4 py-4">
     <span>Hei, {data.username}</span>
     <a href="/control/categoriesedit" class="btn">Categoriat</a>
     <a href="/control/productsadd" class="btn">Lisää tuote</a>
@@ -9,6 +9,6 @@ let { children,data } = $props();
     <a href="/control/coupons" class="btn">Kuponkit</a>
     <a href="/control/orders" class="btn">Tilaukset</a>
 </div>
-<div>
+<div class="py-5">
 	{@render children()}
 </div>

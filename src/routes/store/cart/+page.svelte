@@ -13,12 +13,15 @@
 	let validCoupon = ""
 	let extratext = $state('');
 	let couponCode = $state("");
-	async function applyCoupon() {
+	/**
+	 * @param {{ preventDefault: () => void; }} e
+	 */
+	async function applyCoupon(e) {
+		e.preventDefault()
 		if (couponApplied) {
 			notifications.error('Yksi kuponki lisätty jo', 3000);
 			return;
 		}
-		console.log('trying to add coupon');
 		/** @type {import("$lib/customTypes").Coupon[]}*/
 		// @ts-ignore
 		const found = await fetchDocumentsWhere('coupons', 'name', couponCode, 1);
@@ -45,22 +48,20 @@
 			return;
 		}
 		for (let i = 0; i < products.length; i++) {
-			if (coupon.category !== 'any') {
+			if (coupon.category !== 'kaikki') {
 				// @ts-ignore
 				if (coupon.categoryID != products[i].categoryID) {
-					console.log('category stuff');
 					continue;
 				}
 			}
 			if (!coupon.discount && products[i].discountPercentage > 0) {
-				console.log('discount stuff');
 				continue;
 			}
 			products[i].discountedPrice = products[i].discountedPrice * (1 - coupon.amount / 100);
 		}
 		couponApplied = true;
 		total = products.reduce((acc, product) => {return acc + product.discountedPrice;}, 0)
-		notifications.success('Added coupon', 5000);
+		notifications.success('Lisätty alennus', 5000);
 	}
 	/**
 	 * @param {number} index
@@ -143,7 +144,7 @@
 		<h2 class="text-center mt-4">Lisää tuotteita ensin</h2>
 	{:else}
 		<h2 class="text-center font-bold text-2xl py-4">Yhteishinta: {total.toFixed(2)}€</h2>
-		<div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2">
+		<div class="grid-container gap-2">
 			{#each products as item, index (index)}
 				<div out:fade={{ duration: 250 }} class="grid gap-1 h-full">
 					<span class="text-2xl font-bold"
