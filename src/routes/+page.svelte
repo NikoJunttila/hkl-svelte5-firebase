@@ -39,8 +39,8 @@
 			class="hidden2 max-w-[500px] rounded ml-[5%] gap-5 xl:ml-[10%] flex flex-col lg:flex-row items-center"
 		>
 			<div>
-				<h2>Valoisasti tervetuloa omalle muutosmatkallesi</h2>
-				<p class="bigFont">
+				<h2 class="text-2xl font-bold">Valoisasti tervetuloa omalle muutosmatkallesi</h2>
+				<p class="text-xl">
 					- näkyväksi omalle itsellesi, löytämään oma vahvuutesi sekä avaamaan korkein
 					tietoisuustaajuutesi jolloin myös fyysinen hyvinvointisi voi alkaa kukoistaa.
 				</p>
@@ -179,7 +179,7 @@
 			method="post"
 			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"
 		>
-			<p class="bigFont">Kiitollisuuden meditaatio - ole hyvä :)</p>
+			<p class="text-xl">Kiitollisuuden meditaatio - ole hyvä :)</p>
 			<p>
 				* Kun liityt Luxusen uutiskirjeen tilaajaksi saat lahjaksi Kiitollisuuden meditaatio
 				äänitteen.
@@ -266,9 +266,6 @@
       transition: none;
     }
   }
-  .bigFont{
-		font-size: 1.25rem !important;
-	}
 
 
 </style>

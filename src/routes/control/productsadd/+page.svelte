@@ -247,14 +247,3 @@
             {/if}
         </div> -->
 </div>
-<style>
-/* 	input{
-		width: 100%;
-		padding: 10px;
-		border-radius: 10px;
-		@apply input input-bordered input-secondary w-full max-w-xs
-	} */
-	label{
-		width: 100%;
-	}
-</style>

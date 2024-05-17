@@ -24,7 +24,7 @@ textarea{
   @apply textarea textarea-secondary
 }
 label{
-  @apply label
+  @apply label w-full
 }
 button{
   @apply btn btn-secondary

@@ -203,15 +203,3 @@ async function multipleUpload(e) {
         {/if}
     </div>
 </div>
-    
-    <style>
-        input[type='text'],
-        input[type='number'],
-        textarea {
-            @apply block w-full mt-1 p-2 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500;
-        }
-        
-        label {
-            @apply block text-sm font-medium text-gray-700;
-        }
-    </style>
