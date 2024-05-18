@@ -47,7 +47,7 @@
 			</div>
 			<div>
 				<img
-					class="shader min-w-[250px] min-h-[250px] rounded ml-2"
+					class="shader min-w-[250px] min-h-[250px] rounded ml-2 dropShadow"
 					src="https://i.imgur.com/h8QNWAA.png"
 					alt="hkl"
 				/>
@@ -58,7 +58,7 @@
 		<div class="hidden2 w-[400px] rounded lessMargin flex gap-6 flex-col">
 			<div>
 				<img
-					class="mt-3 shader max-w-[300px] max-h-[250px] rounded"
+					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
 					src="https://i.imgur.com/851DS8t.jpeg"
 					alt="senjankuva"
 				/>
@@ -82,8 +82,15 @@
 				<br />
 				🟣 Tiennäyttäjä ohjelma avaa elämän ilon ja vapauttaa pelkoja silloin kun jokin sairaus on tullut
 				opettamaan asioita.
+				<br />
+				Palveluista löytyy myös:
+				<br />
+				🟣 Energiahoidot, jotka hoitaa kehoa ja antaa buustia, hoitaen kehon energiakenttiä ja aktivoi
+				12 chakraa.
+				<br />
+				🟣 Klassinen hieronta, joka avaa lihasten tunnelukot, eheyttää fyysistä kehoa ja rentouttaa kokonaisvaltaisesti.
 				<img
-					class="mt-3 shader max-w-[300px] max-h-[250px] rounded"
+					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
 					src="https://i.imgur.com/iD3SVYo.jpeg"
 					alt="idk"
 				/>
@@ -91,32 +98,31 @@
 		</div>
 	</section>
 	<section class="min-h-[30vh] flex items-center py-5">
-		<div
-			class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center"
-		>
+		<div class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center">
 			<div>
 				Pääset omille muutoksen matkoille kolmella tavalla:
 				<br />
 				1. Varaa ilmainen
 				<a
-				class="text-green-600 font-bold"
+					class="text-green-800 font-bold"
 					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA"
 					>kartoitusaika</a
 				>
 				jossa katsotaan mikä palvelu olisi sinulle sopivin.
 				<br />
-				2. Osta palvelu suoraan <a class="text-green-600 font-bold" href="/kauppa">kaupasta</a> jolloin pääset sen jälkeen varaamaan
-				ajan hoitoon.
+				2. Osta palvelu suoraan <a class="text-green-800 font-bold" href="/store">kaupasta</a>
+				jolloin pääset sen jälkeen varaamaan ajan hoitoon.
 				<br />
 				3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma
-				<a class="text-green-600 font-bold"
+				<a
+					class="text-green-800 font-bold"
 					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA"
 					>tutustumisaika täältä.</a
 				>
 			</div>
 			<div class="mt-2">
 				<img
-					class="mt-3 shader max-w-[300px] max-h-[250px] rounded"
+					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
 					src="https://i.imgur.com/3BK0By2.jpg"
 					alt="angel"
 				/>
@@ -136,8 +142,8 @@
 			<div>
 				<img
 					loading="lazy"
-					class="mt-3 shader rounded"
-					src="https://i.imgur.com/PLnX1Ch.jpeg"
+					class="mt-3 shader rounded dropShadow"
+					src="https://i.imgur.com/U6WD23s.png"
 					alt="susanna2"
 				/>
 			</div>
@@ -159,7 +165,7 @@
 					loading="lazy"
 					src="https://i.imgur.com/34LfzPl.jpeg"
 					alt="susanna"
-					class="shader rounded"
+					class="shader rounded dropShadow"
 				/>
 			</div>
 			<div class="flex flex-col gap-2 pl-3 ml-2">
@@ -198,7 +204,8 @@
 				maksuttoman Kiitollisuuden meditaation.
 			</p>
 			<br />
-			<label class="flex justify-center items-center">Sposti:<input
+			<label class="flex justify-center items-center"
+				>Sposti:<input
 					class="ml-2 input bg-base-100 outline outline-3 outline-secondary"
 					type="text"
 					name="email"
@@ -232,6 +239,9 @@
 </main>
 
 <style>
+	.dropShadow {
+		filter: drop-shadow(5px 5px 18px #6ee7b7);
+	}
 	div {
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
@@ -249,23 +259,21 @@
 		}
 	}
 	.hidden2 {
-    opacity: 0;
-    transition: all 1s;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition-timing-function: ease-in;
-  }
+		opacity: 0;
+		transition: all 1s;
+		filter: blur(5px);
+		transform: translateX(-100%);
+		transition-timing-function: ease-in;
+	}
 
-  .show2 {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-  }
-  @media (prefers-reduced-motion) {
-    .hidden2 {
-      transition: none;
-    }
-  }
-
-
+	.show2 {
+		opacity: 1;
+		filter: blur(0);
+		transform: translateX(0);
+	}
+	@media (prefers-reduced-motion) {
+		.hidden2 {
+			transition: none;
+		}
+	}
 </style>

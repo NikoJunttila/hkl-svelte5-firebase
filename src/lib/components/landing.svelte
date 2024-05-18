@@ -9,14 +9,14 @@
 	.title-font {
 		font-family: 'Instrument Serif', serif;
 		font-style: italic;
-		font-size: clamp(2.1875rem, 1.2946rem + 2.8571vw, 3.4375rem);
+		font-size: clamp(2.3rem, 1.2946rem + 2.8571vw, 3.4375rem);
 		color: whitesmoke;
 	}
 	.wrapper {
 		 background-image: url('https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2Fheader.webp?alt=media&token=e6ec8ced-17ab-4b89-b09e-c1c34694ba38');
 		background-size: cover;
-		-webkit-animation: slidein 140s;
-		animation: slidein 140s;
+		-webkit-animation: slidein 150s;
+		animation: slidein 150s;
 
 		-webkit-animation-fill-mode: forwards;
 		animation-fill-mode: forwards;
@@ -31,22 +31,22 @@
 	@-webkit-keyframes slidein {
 		from {
 			background-position: center;
-			background-size: 2500px;
+			background-size: 2000px;
 		}
 		to {
-			background-position: 50px 40px;
-			background-size: 2200px;
+			background-position: 100px 80px;
+			background-size: 1800px;
 		}
 	}
 
 	@keyframes slidein {
 		from {
 			background-position: center;
-			background-size: 2500px;
+			background-size: 2000px;
 		}
 		to {
-			background-position: 50px 40px;
-			background-size: 2200px;
+			background-position: 100px 80px;
+			background-size: 1800px;
 		}
 	}
 

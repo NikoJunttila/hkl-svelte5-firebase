@@ -1,10 +1,7 @@
-<script lang="ts">
-    
-</script>
 <main class="ml-2 py-10 flex flex-col justify-center align-middle ">
     <div class="grid place-items-center pb-5">
-        <div class="max-w-[100ch] space">
-<h1 class="text-lg">Muutoksen matka 3kk premium valmennus</h1>
+        <div class="max-w-[100ch] space mx-1">
+<h1 class="text-2xl font-bold">Muutoksen matka 3kk premium valmennus</h1>
       <br>
             <p>Miltä kuulostaisi, jos voisit kolmen kuukauden kuluttua kokea ja tuntea uskomattomia muutoksia itsessäsi?</p>
             

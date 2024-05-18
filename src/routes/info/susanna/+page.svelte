@@ -24,6 +24,7 @@ jonka valitset tueksi ja oppaaksi matkallesi.</p>
     <p>• Korvakynttilä, 2002</p>
     <p>• Reiki I ja II, 2003</p>
     <p class="pb-5">• <a href="https://www.thetahealing.com/theta-specialist-profile.html?id=206353">SERTIFIOITU: Theta Healing® Practioner</a></p>
+    <p>• Bach'n Kukkaterapia, 2002</p>
     <h4>Sertifikaatit</h4>
     <p>• ThetaHealing® DNA Basic Practioner, 2017</p>
     <p>• ThetaHealing® DNA Advance Practioner, 2018</p>
