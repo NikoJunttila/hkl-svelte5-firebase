@@ -64,6 +64,7 @@
 	{/if}
 	<button class="btn btn-warning" onclick={signOutSSR}>Sign out</button>
 	{:else}
+	Hallintapaneeliin kirjautuminen. Myöhemmin käyttäjälle mahdollisuus tallentaa osto tapahtumat
 	<button class="btn btn-primary" onclick={signInWithGoogle}>Sign in with Google</button>
 	{/if}
 </div>
