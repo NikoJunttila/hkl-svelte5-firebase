@@ -56,12 +56,21 @@
 			if (!coupon.discount && products[i].discountPercentage > 0) {
 				continue;
 			}
-			products[i].discountedPrice = products[i].discountedPrice * (1 - coupon.amount / 100);
+			products[i].discountedPrice = naiveRound(products[i].discountedPrice * (1 - coupon.amount / 100))
 		}
 		couponApplied = true;
 		total = products.reduce((acc, product) => {return acc + product.discountedPrice;}, 0)
 		notifications.success('Lisätty alennus', 5000);
 	}
+	
+	/**
+	 * @param {number} num
+	 */
+	function naiveRound(num) {
+    var p = Math.pow(10, 2);
+	const returning = Math.round(num * p) / p;
+	return returning
+}
 	/**
 	 * @param {number} index
 	 */
