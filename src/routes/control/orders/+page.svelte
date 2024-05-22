@@ -39,7 +39,7 @@ $effect(async()=> {
     </select>
     <div class="grid-container py-4 gap-3">
         {#each orders as order}
-        <div class={order.status == "processing" ? 'bg-red-500' : 'bg-green-400'}>
+        <div class={order.status == "käsitellään" ? 'bg-red-500' : 'bg-green-400'}>
             <div class="card text-black p-5 ">
                 <a href="/control/orders/{order.orderNumber}">
                     <p>Tilaus#{order.orderNumber}</p>

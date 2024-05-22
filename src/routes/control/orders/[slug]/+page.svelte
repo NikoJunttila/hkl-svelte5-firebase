@@ -38,18 +38,18 @@
     } catch (e){
         notifications.error(`error:${e}`,3000)
     }
-    }
-    $effect(() => {
-        getDocBydoc()
-    })
+}
+$effect(() => {
+    getDocBydoc()
+})
 </script>
 <div class="flex items-center justify-center flex-col">
     {#if docData}
+    <button class="w-full mx-5 py-5" onclick={updateData}>Merkitse suoritetuksi tilaukseksi</button>
     <div class="m-3">
         <AdminOrder {...docData}></AdminOrder>
     </div>
     {/if}
-    <button onclick={updateData}>Mark as Done</button>
 </div>
 
 

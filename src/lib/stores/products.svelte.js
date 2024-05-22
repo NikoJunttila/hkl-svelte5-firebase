@@ -1,6 +1,14 @@
 import {notifications} from "./notifications.svelte.js"
 import { browser } from '$app/environment';
 
+/**
+ * @param {number} num
+ */
+function naiveRound(num) {
+    var p = Math.pow(10, 2);
+	const returning = Math.round(num * p) / p;
+	return returning
+}
 function loadFromLocalStorage(){
 	if (!browser) return []
 	let productsJson = localStorage.getItem('products');
@@ -19,7 +27,7 @@ export function createProductStore() {
 	function add(/** @type {import("$lib/customTypes").Product} */ p, /** @type {number} */ amount){
 		for (let i=0;i<amount;i++){
 			if(p.discountPercentage){
-				p.discountedPrice = Math.ceil(p.price * ((100 - p.discountPercentage)/100))
+				p.discountedPrice = naiveRound(p.price * ((100 - p.discountPercentage)/100))
 			} else {
 				p.discountedPrice = p.price
 			}
