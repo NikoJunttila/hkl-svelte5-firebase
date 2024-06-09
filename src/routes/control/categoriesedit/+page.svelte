@@ -59,7 +59,7 @@
 					}
 				]
 			};
-			createSomething("categories",categoryObj,idCrypt)
+		createSomething("categories",categoryObj,idCrypt)
 		category = '';
 		previewURL = ""
 		notifications.success("New category added",5000)
