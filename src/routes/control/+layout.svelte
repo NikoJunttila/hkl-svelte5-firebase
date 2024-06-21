@@ -10,6 +10,7 @@ let { children,data } = $props();
     <a href="/control/orders" class="btn">Tilaukset</a>
     <a href="/control/kortit" class="btn">Kortit</a>
     <a href="/control/viesti" class="btn">kauppa viesti</a>
+    <a href="/control/muutoskortit" class="btn">muutoskortit</a>
 </div>
 <div class="py-5">
 	{@render children()}
