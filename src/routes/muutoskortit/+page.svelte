@@ -35,7 +35,9 @@
     Korttipakan tehtävät voivat antaa uutta näkökulmaa käsitellä parisuhteen asioita mutta myös eheyttää yhteyttä puolisoon. Nostakaa kortteja yhdessä ja tehkää korttien antamien ohjeiden mukaan kumpikin erikseen oma tehtävä tai ohjelmointi. 
     Ja katsokaa miten muutokset alkavat näkyä teidän suhteessa.
     <br>
+    <br>
     Korttipakan kortteihin voi aika ajoin tulla muutoksia esimerkiksi niin, että joitakin kortteja voi tulla lisää ja joitakin poistua.  
+    <br>
     <br>
     Ota mukaan ilo ja hauskuus kun nostat kortteja. Anna ensin kortin tekstin avautua sinulle ja tunnustele miltä aihe tuntuu ja sitten tee tehtävä, tai ota vastaan ohjelmointeja ja voimalatauksia.
     <br>
