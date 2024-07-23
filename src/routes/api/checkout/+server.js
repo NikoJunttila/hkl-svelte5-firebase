@@ -23,7 +23,7 @@ export async function POST({request}) {
     const sessionParams = {
         line_items: lineItems,
         shipping_address_collection: {
-            allowed_countries: ["FI"],
+            allowed_countries: ["FI","CA"],
         },
         mode: "payment",
         success_url: `${env.BASE}/order/${orderNum}`,
