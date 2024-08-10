@@ -41,7 +41,7 @@
     Tarkoituksen saa tietää silloin kun on valmis kuulemaan vastauksen.
     
     <br><br>
-    <span class="font-bold text-xl">JOS SINULLA</span> on jokin asia johon haluat saada selkeyttä, parannus voimaa ja muutosta - olethan epäröimättä yhteydessä. <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA">Varaa esimerkiksi ilmainen kartoitus aika, käydään asiaa läpi ja katsotaan voinko olla Sinulle avuksi. </a>
+    <span class="font-bold text-xl">JOS SINULLA</span> on jokin asia johon haluat saada selkeyttä, parannus voimaa ja muutosta - olethan epäröimättä yhteydessä. <a class="underline text-green-700" href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA">Varaa esimerkiksi ilmainen kartoitus aika, käydään asiaa läpi ja katsotaan voinko olla Sinulle avuksi. </a>
     
     <br><br>
     <span class="font-bold text-xl">MIKÄLI</span> koet, että haluat kehittää omia parantajan taitojasi, ole yhteydessä silloinkin. Olen pitänyt Parantajakoulutuksia vuodesta 2005 saakka. Ehkä tämä koulutus voisi resonoida sinullekin. 
