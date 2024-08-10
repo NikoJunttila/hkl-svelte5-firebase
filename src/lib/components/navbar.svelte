@@ -31,7 +31,7 @@ import { userData } from "$lib/firebase";
 		</button>
 		<ul
 			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer -translate-x-[125px] sm:-translate-x-[25px] p-2 rounded">
-			<a href="/galleria" class="hover:bg-base-100 sm:hidden"> Galleria </a>
+			<a href="/galleria" class="hover:bg-base-100 sm:hidden">Galleria</a><br>
 			<a href="/enkelinkuiskaus" class="hover:bg-base-100 sm:hidden">Enkelin kuiskaus</a>
 			<a href="/info/ajanvaraus"><li class="hover:bg-base-100">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-base-100">Susanna</li></a>
