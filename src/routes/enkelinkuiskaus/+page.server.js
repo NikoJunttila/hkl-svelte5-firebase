@@ -1,7 +1,7 @@
 import { fetchDocuments } from '$lib/firebaseFuncs';
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-    const returnval = await fetchDocuments("cards2")
+    const returnval = await fetchDocuments("cards3")
     let currentIndex = returnval.length;
   while (currentIndex != 0) {
     // Pick a remaining element...

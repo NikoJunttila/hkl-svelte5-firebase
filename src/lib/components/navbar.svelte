@@ -14,7 +14,8 @@ import { userData } from "$lib/firebase";
 	</a>
 	<a class="btn btn-sm btn-secondary h-14" href="/store" rel="noreferrer"> Kauppa </a>
 	<a class="btn btn-sm btn-secondary h-14" href="/matka">Muutoksen <br> matka</a>
-	<a class="btn btn-sm btn-secondary h-14   hidden sm:flex justify-center items-center" href="/galleria"> Galleria </a>
+	<a class="btn btn-sm btn-secondary h-14   hidden sm:flex justify-center items-center" href="/galleria"> Galleria</a>
+	<a class="btn btn-sm btn-secondary h-14   hidden sm:flex justify-center items-center" href="/enkelinkuiskaus">Enkelin kuiskaus</a>
 	<div class="relative mr-auto sm:mr-0">
 		<button class="btn btn-sm btn-secondary h-14 showMoreBtn">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 16 16"
@@ -31,6 +32,7 @@ import { userData } from "$lib/firebase";
 		<ul
 			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer -translate-x-[125px] sm:-translate-x-[25px] p-2 rounded">
 			<a href="/galleria" class="hover:bg-base-100 sm:hidden"> Galleria </a>
+			<a href="/enkelinkuiskaus" class="hover:bg-base-100 sm:hidden">Enkelin kuiskaus</a>
 			<a href="/info/ajanvaraus"><li class="hover:bg-base-100">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-base-100">Susanna</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-base-100">Yhteystiedot</li></a>
