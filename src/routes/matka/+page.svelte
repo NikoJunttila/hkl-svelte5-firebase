@@ -74,7 +74,7 @@
         <p><a class="bigger" href="https://youtu.be/gpQRGQSqLz0?si=lPuUps_guo_DKw36">OTA TÄSTÄ</a> testaukseen harjoitus, jonka avulla voit opetella rakastamaan ja hyväksymään itsesi.</p>
     <br>  
     <img class="my-2 rounded-lg" src="https://i.imgur.com/fwZsbNC.jpeg" alt="muutoksen matka"/>
-    Valmennuksen hinta on 2000€ (sis.alv 24%) maksetaan kokonaisuudessaan ennen valmennuksen aloitusta. 
+    Valmennuksen hinta on 2000€ (sis.alv 25.5%) maksetaan kokonaisuudessaan ennen valmennuksen aloitusta. 
 <br><br>
 Mahdollisuus myös maksaa erissä. Erämaksuihin lisätään yht. 10% lisä<br>
 Kysy lisää erämaksu mahdollisuudesta kartoituspuhelussa. 
