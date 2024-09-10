@@ -36,6 +36,7 @@ import { userData } from "$lib/firebase";
 			<a href="/info/ajanvaraus"><li class="hover:bg-base-100">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-base-100">Susanna</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-base-100">Yhteystiedot</li></a>
+			<a href="/info/tietosuoja"><li class="hover:bg-base-100"></li>tietosuoja</a>
 			<a href="/info/tilausohjeet"><li class="hover:bg-base-100">Tilausohjeet <br> & <br> Tietosuojaseloste</li></a>
 			<div class="avatar sm:hidden">
 				<div class="rounded w-14 h-14 hover:bg-base-100">
