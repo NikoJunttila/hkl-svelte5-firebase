@@ -1,5 +1,7 @@
 import { stripe } from '$lib/stripe';
 import { env } from '$env/dynamic/private';
+import { naiveRound } from '$lib/utils';
+
 /** @type {import('./$types').RequestHandler} */
 export async function POST({request}) {
     const data = await request.json()
@@ -15,7 +17,7 @@ export async function POST({request}) {
                    name: item.title,
                    images:[item.thumbnail],
                 },
-                unit_amount: item.discountedPrice * 100
+                unit_amount: naiveRound(item.discountedPrice * 100)
             },
             quantity: 1
         }
