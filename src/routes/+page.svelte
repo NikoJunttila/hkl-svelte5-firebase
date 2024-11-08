@@ -41,8 +41,9 @@
 			<div>
 				<h2 class="text-2xl font-bold">Valoisasti tervetuloa omalle muutosmatkallesi</h2>
 				<p class="text-xl">
-					- näkyväksi omalle itsellesi, löytämään oma vahvuutesi sekä avaamaan korkein
-					tietoisuustaajuutesi jolloin myös fyysinen hyvinvointisi voi alkaa kukoistaa.
+					- näkyväksi omalle itsellesi, löytämään oma henkinen vahvuutesi sekä avaamaan sinun
+					korkeimmat tietoisuus taajuudet jolloin myös sinun fyysinen hyvinvointi voi alkaa
+					kukoistaa.
 				</p>
 			</div>
 			<div>
@@ -59,39 +60,58 @@
 			<div>
 				<img
 					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
-					src="https://i.imgur.com/851DS8t.jpeg"
+					src="https://i.imgur.com/nVwWQad.jpeg"
 					alt="senjankuva"
 				/>
 			</div>
 			<div>
 				Hyvinvointikeskus Luxusen hoidot ja valmennukset ovat syntyneet vankalla kokemuksella ja
-				ammattitaidolla yli kahdenkymmenen vuoden ajalta. Hoidot sisältävät vahvaa hoitavaa valoa ja
-				energiataajuutta joka on yksi muutoksen työvälineistä. Palveluista löytyy seuraavat
-				etäohjelmat:
+				ammattitaidolla yli kahdenkymmenen vuoden ajalta. Hoidot ja valmennukset sisältävät vahvaa
+				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.
 				<br />
-				🟣 Muutoksen matka valmennusohjelma joka on 3 kk rakkausmatka itseesi.
+				Oletko valmis omaan muutokseesi?
 				<br />
-				🟣 Syvällisellä Theta Healing matkalla työstetään ydinsyitä alitajunnan taajuudella jolloin henkinen
-				ja fyysinen tila pääsee paremmin eheytymään.
+				Hyvinvointikeskus Luxus palvelee seuraavilla ohjelmilla ja etähoidolla:
 				<br />
-				🟣 Pääset Valosiivet ohjelmalla lempeästi kokemaan enkeleiden luomat vahvat energiahoidot ja
-				viestit.
+				🟣 Syvällisellä Theta Healing hoidolla löydetään ja työstetään ydinsyy haastetta alitajunnan
+				taajuudella ja uudelleen ohjelmoidaan tilalle toimivampia ratkaisuja jolloin henkinen ja fyysinen
+				tila pääsee eheytymään. viestit.
 				<br />
 				🟣 Navigointi ohjelma on hienovärähteistä energiahoitoa joka avaa sinua ja näyttää sinulle eteenpäin
 				menemisen reitit.
 				<br />
-				🟣 Tiennäyttäjä ohjelma avaa elämän ilon ja vapauttaa pelkoja silloin kun jokin sairaus on tullut
-				opettamaan asioita.
+				🟣 Muutoksen matka valmennusohjelma on 3 kk rakkausmatka itseesi.
+
 				<br />
-				Palveluista löytyy myös:
+				🟣Tunne itsesi - Loista itsellesi on 3x90 min. hoitava valmennusohjelma joka auttaa sinua käsittelemään
+				henkisiä tai fyysisiä traumoja.
 				<br />
-				🟣 Energiahoidot, jotka hoitaa kehoa ja antaa buustia, hoitaen kehon energiakenttiä ja aktivoi
-				12 chakraa.
+				🟣 Sisäisen lapsen tulkinta/valmennus avaa sisimpääsi jolloin sisäinen lapsesi tulee kuulluksi
+				ja nähdyksi sinulle.
 				<br />
-				🟣 Klassinen hieronta, joka avaa lihasten tunnelukot, eheyttää fyysistä kehoa ja rentouttaa kokonaisvaltaisesti.
+				🟣 Unelmista totta! Vapaudu rajoittavista uskomuksista jotka estävät sinua saavuttamasta haluamaasi.
+				Tämä kaupassa oleva minivalmennus *Kulje unelmiesi taajuudelle* on matkakartta, joka auttaa sinua
+				askel kerrallaan saavuttamaan luottamuksesi siihen, että voit vetää puoleesi sinua kutsuvia unelmia.
+				<br />
+				🟢 Workshop luennoilla pääsee parantaville energiataajuuksille. Workshop luennot ovat samalla
+				ns. työpajoja jotka antavat sinulle muutostyövälineitä. Luennot ovat kestoltaan alk. 60 min.
+				Kun haluat tilata luennon varaa ilmainen <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA" class="text-green-800 font-bold">kartoitusaika</a> niin keskustellaan asiasta lisää.
+				<br />
+				<ul>
+					Luentojen aiheita ovat:
+					<li>* enkeliluento</li>
+					<li>* tunne itsesi - loista itsellesi</li>
+					<li>* rakkausmatka itseesi</li>
+					<li>* alitajunnan voima</li>
+				</ul>
+				<div>
+					KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja digitaalisia voima korttipakkoja.
+Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa hoitoja itselle. 
+				</div>
+
 				<img
 					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
-					src="https://i.imgur.com/iD3SVYo.jpeg"
+					src="https://i.imgur.com/jDRaoXg.png"
 					alt="idk"
 				/>
 			</div>
@@ -100,30 +120,24 @@
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center">
 			<div>
-				Pääset omille muutoksen matkoille kolmella tavalla:
+				💜 Susannalla on yli kahden vuosikymmenen ammattitaito energiaparantamisen taajuudella ja selvänäkemisen kyky ihmisten fyysisen -ja henkisen kehon tunnelukkojen informaatiosta ja niiden avaamisesta, parantamisesta ja kehon kokonaisvaltaisesta eheyttämisestä. 
 				<br />
-				1. Varaa ilmainen
-				<a
-					class="text-green-800 font-bold"
-					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA"
-					>kartoitusaika</a
-				>
-				jossa katsotaan mikä palvelu olisi sinulle sopivin.
+				🟡 Fyysinen keho saattaa kantaa mukana monien vuosikymmenten takaa asioita ja kokemuksia jotka kiinnittyvät kehon energiatilaan ja sieltä alkavat ajan kanssa vaikuttaa fyysiselle keholle aiheuttaen oire haasteita. 
 				<br />
-				2. Osta palvelu suoraan <a class="text-green-800 font-bold" href="/store">kaupasta</a>
-				jolloin pääset sen jälkeen varaamaan ajan hoitoon.
-				<br />
-				3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma
-				<a
-					class="text-green-800 font-bold"
-					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA"
-					>tutustumisaika täältä.</a
-				>
+				Jos koet, että sinulla on tällaisia oire haasteita tai tunnelukkoja joita sinun keho tai alitajunta kantaa mukana niin pääset omille muutos matkoille näillä kolmella tavalla: 
+				<ul>
+					<li>* varaa  <a href="https://booksalon.fi/hyvinvointikeskus-luxus" class="text-green-800 font-bold">hoitoaika</a> 
+					</li>
+					<li>* valitse <a href="https://www.hyvinvointikeskusluxus.com/store" class="text-green-800 font-bold">kaupasta</a> sopiva hoito tai valmennus. 
+					</li>
+					<li>* varaa ilmainen <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA" class="text-green-800 font-bold">kartoitus puhelu</a> niin katsotaan yhdessä sinun seuraava eheytymisen askel eteenpäin.
+					</li>
+				</ul>
 			</div>
 			<div class="mt-2">
 				<img
 					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
-					src="https://i.imgur.com/3BK0By2.jpg"
+					src="https://i.imgur.com/gPwhZ44.png"
 					alt="angel"
 				/>
 			</div>
@@ -143,7 +157,7 @@
 				<img
 					loading="lazy"
 					class="mt-3 shader rounded dropShadow"
-					src="https://i.imgur.com/U6WD23s.png"
+					src="https://i.imgur.com/ulffGhQ.png"
 					alt="susanna2"
 				/>
 			</div>
@@ -163,16 +177,19 @@
 			<div>
 				<img
 					loading="lazy"
-					src="https://i.imgur.com/34LfzPl.jpeg"
+					src="https://i.imgur.com/Pkr7YgK.jpeg"
 					alt="susanna"
 					class="shader rounded dropShadow"
 				/>
 			</div>
 			<div class="flex flex-col gap-2 pl-3 ml-2">
-				<p>Valolla ja rakkaudella, minulla on ilo palvella Sinua hyvinvointisi matkalla!</p>
+				<p>Avaa ovi omaan muutokseesi ja voi hyvin! </p>
+					<p>Ilon säteitä päivään Sinulle! 
+					</p>
+				
 				<p>
-					Susanna Höijer Parantaja, Näkijä, Kouluttaja, Theta Healing® Practioner, Koulutettu
-					hieroja
+					Susanna Höijer, <br />
+					parantaja, näkijä, henkinen valmentaja, koulutettu hieroja
 				</p>
 			</div>
 		</div>
@@ -185,7 +202,8 @@
 			method="post"
 			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"
 		>
-			<p class="text-xl">Kiitollisuuden meditaatio - ole hyvä :)</p>
+			<p class="text-xl">🟡 Liity alta uutiskirjeemme tilaajaksi. Uutiskirje ei sido sinua mihinkään päinvastoin saat itsellesi ihania hoitavia opastuksia ja aktivointeja ja myös tarjouksia. 
+			</p>
 			<p>
 				* Kun liityt Luxusen uutiskirjeen tilaajaksi saat lahjaksi Kiitollisuuden meditaatio
 				äänitteen.
