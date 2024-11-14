@@ -105,11 +105,6 @@
 					<li>* alitajunnan voima</li>
 				</ul>
 				<br>
-				<br>
-				<div>
-					KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja digitaalisia voima korttipakkoja.
-Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa hoitoja itselle. 
-				</div>
 
 				<img
 					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
@@ -149,11 +144,8 @@
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div class="hidden2 w-[400px] rounded lessMargin">
 			<div>
-				🟣 KAUPASTA: löytyy lisäksi minivalmennuksia sekä kuunneltavia äänitteitä. Ja lisäksi
-				kaikille jotka haluavat avata oven maailmankaikkeuden ihmeille, niin on nyt myös tarjolla
-				Metsätonttu Alfredin tarinoiden matkat jotka ohjaavat sinut luonnon lempeään maailmaan.
-				Alfredin tarinoihin pääset kaupan kautta jonne tulee aina uusi tarina sitä mukaan kun
-				energiamatkoja syntyy.
+				KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja digitaalisia voima korttipakkoja.
+Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa hoitoja itselle. 
 			</div>
 			<div>
 				<img
