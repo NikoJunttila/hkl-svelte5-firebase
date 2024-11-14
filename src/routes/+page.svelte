@@ -67,7 +67,7 @@
 			<div>
 				Hyvinvointikeskus Luxusen hoidot ja valmennukset ovat syntyneet vankalla kokemuksella ja
 				ammattitaidolla yli kahdenkymmenen vuoden ajalta. Hoidot ja valmennukset sisältävät vahvaa
-				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.
+				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.<br><br>
 				<br />
 				Oletko valmis omaan muutokseesi?
 				<br />
@@ -104,6 +104,8 @@
 					<li>* rakkausmatka itseesi</li>
 					<li>* alitajunnan voima</li>
 				</ul>
+				<br>
+				<br>
 				<div>
 					KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja digitaalisia voima korttipakkoja.
 Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa hoitoja itselle. 
