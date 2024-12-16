@@ -46,6 +46,7 @@
 					kukoistaa.
 				</p>
 			</div>
+
 			<div>
 				<img
 					class="shader min-w-[250px] min-h-[250px] rounded ml-2 dropShadow"
@@ -67,7 +68,8 @@
 			<div>
 				Hyvinvointikeskus Luxusen hoidot ja valmennukset ovat syntyneet vankalla kokemuksella ja
 				ammattitaidolla yli kahdenkymmenen vuoden ajalta. Hoidot ja valmennukset sisältävät vahvaa
-				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.<br><br>
+				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.<br /><br
+				/>
 				<br />
 				Oletko valmis omaan muutokseesi?
 				<br />
@@ -95,7 +97,12 @@
 				<br />
 				🟢 Workshop luennoilla pääsee parantaville energiataajuuksille. Workshop luennot ovat samalla
 				ns. työpajoja jotka antavat sinulle muutostyövälineitä. Luennot ovat kestoltaan alk. 60 min.
-				Kun haluat tilata luennon varaa ilmainen <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA" class="text-green-800 font-bold">kartoitusaika</a> niin keskustellaan asiasta lisää.
+				Kun haluat tilata luennon varaa ilmainen
+				<a
+					href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA"
+					class="text-green-800 font-bold">kartoitusaika</a
+				>
+				niin keskustellaan asiasta lisää.
 				<br />
 				<ul>
 					Luentojen aiheita ovat:
@@ -104,7 +111,7 @@
 					<li>* rakkausmatka itseesi</li>
 					<li>* alitajunnan voima</li>
 				</ul>
-				<br>
+				<br />
 
 				<img
 					class="mt-3 shader max-w-[300px] max-h-[250px] rounded dropShadow"
@@ -117,17 +124,35 @@
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div class="hidden2 w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center">
 			<div>
-				💜 Susannalla on yli kahden vuosikymmenen ammattitaito energiaparantamisen taajuudella ja selvänäkemisen kyky ihmisten fyysisen -ja henkisen kehon tunnelukkojen informaatiosta ja niiden avaamisesta, parantamisesta ja kehon kokonaisvaltaisesta eheyttämisestä. 
+				💜 Susannalla on yli kahden vuosikymmenen ammattitaito energiaparantamisen taajuudella ja
+				selvänäkemisen kyky ihmisten fyysisen -ja henkisen kehon tunnelukkojen informaatiosta ja
+				niiden avaamisesta, parantamisesta ja kehon kokonaisvaltaisesta eheyttämisestä.
 				<br />
-				🟡 Fyysinen keho saattaa kantaa mukana monien vuosikymmenten takaa asioita ja kokemuksia jotka kiinnittyvät kehon energiatilaan ja sieltä alkavat ajan kanssa vaikuttaa fyysiselle keholle aiheuttaen oire haasteita. 
+				🟡 Fyysinen keho saattaa kantaa mukana monien vuosikymmenten takaa asioita ja kokemuksia jotka
+				kiinnittyvät kehon energiatilaan ja sieltä alkavat ajan kanssa vaikuttaa fyysiselle keholle aiheuttaen
+				oire haasteita.
 				<br />
-				Jos koet, että sinulla on tällaisia oire haasteita tai tunnelukkoja joita sinun keho tai alitajunta kantaa mukana niin pääset omille muutos matkoille näillä kolmella tavalla: 
+				Jos koet, että sinulla on tällaisia oire haasteita tai tunnelukkoja joita sinun keho tai alitajunta
+				kantaa mukana niin pääset omille muutos matkoille näillä kolmella tavalla:
 				<ul>
-					<li>* varaa  <a href="https://booksalon.fi/hyvinvointikeskus-luxus" class="text-green-800 font-bold">hoitoaika</a> 
+					<li>
+						* varaa <a
+							href="https://booksalon.fi/hyvinvointikeskus-luxus"
+							class="text-green-800 font-bold">hoitoaika</a
+						>
+
 					</li>
-					<li>* valitse <a href="https://www.hyvinvointikeskusluxus.com/store" class="text-green-800 font-bold">kaupasta</a> sopiva hoito tai valmennus. 
+					<li>
+						* valitse <a
+							href="https://www.hyvinvointikeskusluxus.com/store"
+							class="text-green-800 font-bold">kaupasta</a
+						> sopiva hoito tai valmennus.
 					</li>
-					<li>* varaa ilmainen <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA" class="text-green-800 font-bold">kartoitus puhelu</a> niin katsotaan yhdessä sinun seuraava eheytymisen askel eteenpäin.
+					<li>
+						* varaa ilmainen <a
+							href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA"
+							class="text-green-800 font-bold">kartoitus puhelu</a
+						> niin katsotaan yhdessä sinun seuraava eheytymisen askel eteenpäin.
 					</li>
 				</ul>
 			</div>
@@ -144,8 +169,9 @@
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div class="hidden2 w-[400px] rounded lessMargin">
 			<div>
-				KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja digitaalisia voima korttipakkoja.
-Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa hoitoja itselle. 
+				KAUPASTA: Löytyy lisäksi minivalmennuksia ja kursseja sekä kuunneltavia äänitteitä ja
+				digitaalisia voima korttipakkoja. Äänitteet ovat helppo ja nopea tapa eheyttää ja antaa
+				hoitoja itselle.
 			</div>
 			<div>
 				<img
@@ -167,6 +193,7 @@
 		</div>
 	</section>
 	<section class="min-h-[30vh] flex items-center py-5">
+		
 		<div class="hidden2 w-[450px] rounded lessMargin flex">
 			<div>
 				<img
@@ -177,10 +204,9 @@
 				/>
 			</div>
 			<div class="flex flex-col gap-2 pl-3 ml-2">
-				<p>Avaa ovi omaan muutokseesi ja voi hyvin! </p>
-					<p>Ilon säteitä päivään Sinulle! 
-					</p>
-				
+				<p>Avaa ovi omaan muutokseesi ja voi hyvin!</p>
+				<p>Ilon säteitä päivään Sinulle!</p>
+
 				<p>
 					Susanna Höijer, <br />
 					parantaja, näkijä, henkinen valmentaja, koulutettu hieroja
@@ -196,7 +222,9 @@
 			method="post"
 			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"
 		>
-			<p class="text-xl">🟡 Liity alta uutiskirjeemme tilaajaksi. Uutiskirje ei sido sinua mihinkään päinvastoin saat itsellesi ihania hoitavia opastuksia ja aktivointeja ja myös tarjouksia. 
+			<p class="text-xl">
+				🟡 Liity alta uutiskirjeemme tilaajaksi. Uutiskirje ei sido sinua mihinkään päinvastoin saat
+				itsellesi ihania hoitavia opastuksia ja aktivointeja ja myös tarjouksia.
 			</p>
 			<p>
 				* Kun liityt Luxusen uutiskirjeen tilaajaksi saat lahjaksi Kiitollisuuden meditaatio

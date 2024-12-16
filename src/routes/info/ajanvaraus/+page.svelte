@@ -1,5 +1,6 @@
-<style>
-</style>
+<script>
+
+</script>
 <div class="max-w-[50ch] text-2xl">
     <p>Tässä on linkki Book Salon'in sähköiseen ajanvaraukseen, josta voi varata hoitajan.</p>
     <br>
