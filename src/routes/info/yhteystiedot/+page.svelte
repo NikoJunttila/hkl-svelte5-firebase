@@ -4,9 +4,7 @@
         <h3>Yhteystiedot</h3>
     </div>
 <h2 class='text-green-600 mb-5 text-center my-2 text-2xl'>Hyvinvointikeskus Luxus</h2>
-<p class="font-bold">Vastaanotto:</p>
-<p>Kaltsilantie 118, 38220 Sastamala</p>
-<p class="font-bold">myös etävastaanotto</p>
+<p>Vastaanotto vain etänä:</p>
 <span class="mr-2">ajanvaraus:</span><a href="https://booksalon.fi/hyvinvointikeskus-luxus" class="ajanvaraus-text"> booksalon.fi/hyvinvointikeskus-luxus</a>
 <br><br>
 <p class="font-bold">Yhteystiedot:</p>

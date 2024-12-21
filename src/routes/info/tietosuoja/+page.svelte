@@ -45,5 +45,5 @@ pidempään kuin on tarpeen.</p>
 <p>- Kuljetusyritys, joka kuljettaa tavaran sinulle.</p>
 <p>- Book Salon Nettiajanvaraus</p>
 <p>- Stripen maksujärjestelmä</p>
-<p>Tämä seloste on laadittu 09.04.2021 ja muokattu 30.7.2022</p>
+<p>Tämä seloste on laadittu 09.04.2021 ja muokattu 21.12.2024</p>
 </div>

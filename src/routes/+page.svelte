@@ -71,7 +71,7 @@
 				parantavaa ja hoitavaa valoa ja energiataajuutta joilla saadaan muutoksia aikaan.<br /><br
 				/>
 				<br />
-				Oletko valmis omaan muutokseesi?
+				<h1 class="text-2xl">Oletko valmis omaan muutokseesi?</h1><br />
 				<br />
 				Hyvinvointikeskus Luxus palvelee seuraavilla ohjelmilla ja etähoidolla:
 				<br />
@@ -215,53 +215,11 @@
 		</div>
 	</section>
 	<div class="flex justify-center items-center">
-		<form
-			id="tilaus"
-			class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary rounded-md py-10"
-			target="_blank"
-			method="post"
-			action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f"
-		>
-			<p class="text-xl">
-				🟡 Liity alta uutiskirjeemme tilaajaksi. Uutiskirje ei sido sinua mihinkään päinvastoin saat
-				itsellesi ihania hoitavia opastuksia ja aktivointeja ja myös tarjouksia.
-			</p>
-			<p>
-				* Kun liityt Luxusen uutiskirjeen tilaajaksi saat lahjaksi Kiitollisuuden meditaatio
-				äänitteen.
-			</p>
-			<p>
-				* Luxusen uutiskirjeen lukijat saavat sähköpostiinsa positiivista energiaa sisältäviä
-				kirjeitä joissa voi olla lyhyitä hoito-ohjelmia, aktivointeja ja harjoituksia hyvinvoinnin
-				tasapainon ylläpitämiseen. Sekä tietysti saat ensimmäisenä tietää Luxusen extra tarjoukset.
-			</p>
-			<p>
-				* Uutiskirje on ilmainen eikä sido sinua mihinkään. Voit milloin tahansa lopettaa tilauksen
-				mikäli tunnet kirjeet tarpeettomiksi.
-			</p>
-			<p>
-				* <span class="font-bold">Kyllä haluan liittyä</span> Luxusen uutiskirjeen tilaajaksi ja saada
-				maksuttoman Kiitollisuuden meditaation.
-			</p>
-			<br />
-			<label class="flex justify-center items-center"
-				>Sposti:<input
-					class="ml-2 input bg-base-100 outline outline-3 outline-secondary"
-					type="text"
-					name="email"
-					placeholder="Sähköposti"
-					value=""
-				/></label
-			>
-			<button
-				onclick={() => notifications.success('Tilattu uutiskirje', 5000)}
-				class="btn bg-base-300"
-				type="submit"
-				value="Liity">Tilaa</button
-			>
-			* Antamalla yhteystietosi hyväksyt samalla, että sinulle voidaan jatkossa lähettää sähköpostia.
-			Voit poistua listalta koska tahansa.
-		</form>
+
+
+		<a class="text-3xl text-yellow-200" href="https://info-hyvinvointikeskusluxus.systeme.io/029e9b27" target="_blank">Tilaa tästä ILMAINEN Esteet itsesi rakastamisen tiellä -opas</a>
+
+				
 	</div>
 	<div class="max-w-[500px] mx-auto py-5 show2">
 		Lääketieteellinen vastuuvapaus lauseke:
