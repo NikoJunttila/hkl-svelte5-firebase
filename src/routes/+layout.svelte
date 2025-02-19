@@ -17,7 +17,6 @@ $userData;
 	<PageTransition key={data.url} duration={400}>
 		<div class="min-h-[70vh] flex flex-col bg-gradient-to-b from-base-100 to-base-300">
 			{@render children()}
-			<div class="booksalon-widget" data-salon-id="hyvinvointikeskus-luxus" data-widget-position="overlay"></div>
 		</div>
 	</PageTransition>
 	<Footer /> 
