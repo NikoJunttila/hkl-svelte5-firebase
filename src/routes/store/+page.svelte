@@ -3,10 +3,10 @@
      let {data} = $props(); 
      /** @type {import("$lib/customTypes").Category[]}*/
     // @ts-ignore
-    const categories = data.categories
+    const categories = data.categories.sort((a,b) => a.sort-b.sort)
 </script>
 
-<div class="grid-container gap-2 mx-5">
+<div class="grid-container gap-2 mx-5 py-4">
     {#each categories as c}
     <a href={`/store/${c.id}`}>
       <div class="card bg-base-100 h-full shadow-xl image-full !opacity-100 ">

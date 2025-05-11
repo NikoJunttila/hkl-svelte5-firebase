@@ -30,7 +30,7 @@
 						class="input w-full bg-base-300"
 						type="text"
 						name="query"
-						placeholder="Etsi tuotteita?"
+						placeholder="Etsi tuotteita"
 					/>
 				</label>
 				<button type="submit" class="btn bg-base-100 p-5 h-full">Etsi</button>
@@ -55,4 +55,9 @@
 </div>
 
 <style>
+	input::placeholder {
+  font-weight: bold;
+  opacity: 0.7;
+  color: white;
+}
 </style>

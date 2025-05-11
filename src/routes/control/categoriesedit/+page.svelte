@@ -50,6 +50,7 @@
 				id: idCrypt,
 				name: category.trim(),
 				sale: false,
+				sort: 1,
 				thumbnail: urlForImg,
 				subcategories: [
 					{
