@@ -1,11 +1,13 @@
-
+<script>
+    import { timereserveURL } from "$lib/constants";
+</script>
 <div class="max-w-[50ch]">
     <div class="bg-base-300 rounded-2xl text-center text-2xl py-3">
         <h3>Yhteystiedot</h3>
     </div>
 <h2 class='text-green-600 mb-5 text-center my-2 text-2xl'>Hyvinvointikeskus Luxus</h2>
 <p>Vastaanotto vain etänä:</p>
-<span class="mr-2">ajanvaraus:</span><a href="https://booksalon.fi/hyvinvointikeskus-luxus" class="ajanvaraus-text"> booksalon.fi/hyvinvointikeskus-luxus</a>
+<span class="mr-2">ajanvaraus:</span><a href={`${timereserveURL}book/4?`} class="ajanvaraus-text"></a>
 <br><br>
 <p class="font-bold">Yhteystiedot:</p>
 <p>Susanna Höijer</p>

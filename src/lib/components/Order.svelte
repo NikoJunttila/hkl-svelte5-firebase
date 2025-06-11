@@ -1,6 +1,7 @@
 <script>
 // @ts-nocheck
     let {date,items, orderNumber, status, name,total } = $props();
+    import { timereserveURL } from "$lib/constants";
   </script>
 
   <style>
@@ -33,7 +34,7 @@
   </style>
   
   <div class="order-container">
-    <a class="font-bold text-xl text-blue-500 text-center" href="https://booksalon.fi/hyvinvointikeskus-luxus">Tästä linkistä pääset ajanvaraukseen</a>
+    <a class="font-bold text-xl text-blue-500 text-center" href={`${timereserveURL}book/4?`}>Tästä linkistä pääset ajanvaraukseen</a>
     <h2>Tilausnumero #{orderNumber}</h2>
     <div class="order-details">
       <div class="order-detail">

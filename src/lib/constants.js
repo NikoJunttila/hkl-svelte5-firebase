@@ -1,0 +1,1 @@
+export const timereserveURL = "https://test.randomderp.org/"

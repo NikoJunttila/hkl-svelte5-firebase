@@ -1,3 +1,6 @@
+<script>
+import { timereserveURL } from "$lib/constants";
+</script>
 <style>
     .title{
         box-shadow: 0px 6px 15px 1px #000;
@@ -11,7 +14,7 @@
     </div>
 <h3 class="mt-3">Hyvinvointikeskus Luxus</h3>
 <p>Vastaanotto vain etänä:</p>
-<span class="mt-3">ajanvaraus:</span><a href="https://booksalon.fi/hyvinvointikeskus-luxus">booksalon.fi/hyvinvointikeskus-luxus</a>
+<span class="mt-3">ajanvaraus:</span><a href={`${timereserveURL}book/4?lang=fi`}>ajanvaraus</a>
 
 <p class="mt-3">Yhteystiedot:</p>
 <p>Susanna Höijer</p>

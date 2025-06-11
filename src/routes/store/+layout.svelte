@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	// @ts-ignore
 	import { productsStore } from '$lib/stores/products.svelte.js';
+  import { timereserveURL } from "$lib/constants";
 	
 	let { children, data } = $props();
 	let queryVal = $state('');
@@ -47,6 +48,7 @@
 </header>
 {#if data.text}
 <div class="bg-secondary py-4 text-center text-wrap -translate-y-1">
+<a class="font-bold mb-4 text-blue-600 text-2xl" target="_blank" href="{`${timereserveURL}book/4?lang=fi`}">Ajanvaraus linkki</a>
 <p class="font-bold text-2xl">{data.text}</p>
 </div>
 {/if}

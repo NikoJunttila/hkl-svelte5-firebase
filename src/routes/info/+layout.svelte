@@ -3,7 +3,7 @@
     let {children} = $props()
 </script>
 
-<div class="ml-2 pt-5 flex flex-col justify-center align-middle">
+<div class="px-1 pt-5 flex flex-col justify-center align-middle">
     <div class="grid place-items-center pb-5 min-h-[50vh]">
         {@render children()}
     </div>

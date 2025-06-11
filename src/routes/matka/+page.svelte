@@ -1,3 +1,6 @@
+<script>
+import { timereserveURL } from "$lib/constants";
+</script>
 <main class="ml-2 py-10 flex flex-col justify-center align-middle">
 	<div class="grid place-items-center pb-5">
 		<div class="max-w-[100ch] space mx-1 text-lg">
@@ -97,10 +100,10 @@
 
 			J o t e n
 
+    <a class="font-bold mb-4 text-blue-600" target="_blank" href="">ajanvaraus</a>
 			<a
 				class="underline text-red-500"
-				href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA
-"
+				href="{`${timereserveURL}book/4?lang=fi&id=12`}"
 				target="_blank">VARAA SIIS ENSIN ILMAINEN PUHELU</a
 			>
 			jos Muutoksen matka yhtään tässä vaiheessa resonoi sinua. Ja sitten puhelussa tuumaillaan asiaa
@@ -175,7 +178,7 @@
 			Varaa tästä
 			<a
 				class="underline text-red-500"
-				href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA"
+				href={`${timereserveURL}book/4?lang=fi&id=12`}
 				target="_blank">ILMAINEN PUHELU!</a
 			>
 			Ja aloita oma paras matkasi yhdestä puhelusta!
