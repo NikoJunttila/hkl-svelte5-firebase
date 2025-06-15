@@ -1,1 +1,1 @@
-export const timereserveURL = "https://test.randomderp.org/"
+export const timereserveURL = "https://booking.junttila.dev/"
