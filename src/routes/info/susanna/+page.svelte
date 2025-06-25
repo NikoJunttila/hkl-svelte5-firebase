@@ -126,7 +126,8 @@ import { timereserveURL } from "$lib/constants";
                 <p class="text-lg mb-4">
                     <span class="font-bold">Jos sinulla</span> on jokin asia johon haluat saada selkeyttä, parantamisvoimaa ja muutosta - olethan epäröimättä yhteydessä.
                 </p>
-                <a href="#" class="inline-block bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <a href={`${timereserveURL}book/4?id=12`} target="_blank"
+ class="inline-block bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Varaa ilmainen kartoitusaika 📅
                 </a>
             </div>
