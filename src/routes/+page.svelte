@@ -2,8 +2,45 @@
 	import Landing from '$lib/components/landing.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import Quote from '$lib/components/quote.svelte';
-	import { notifications } from '$lib/stores/notifications.svelte';
 	import { timereserveURL } from "$lib/constants";
+  
+
+	const customerEmail = "nikosamulijunttila@gmail.com"
+	const orderId = "1234"
+	let error = $state("")
+// Function to send order confirmation email
+  async function sendOrderConfirmation() {
+    if (!customerEmail || !orderId) {
+      error = 'Sähköposti ja tilausnumero vaaditaan';
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/send-order-confirmation', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          customerEmail,
+          orderId
+        })
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        console.log('Email sent successfully:', result.messageId);
+      } else {
+        error = result.error || 'Sähköpostin lähettäminen epäonnistui';
+      }
+
+    } catch (err) {
+      console.error('Error sending email:', err);
+      error = 'Verkkovirhe. Yritä uudelleen.';
+    }
+  }
+
 </script>
 
 <svelte:head>
@@ -12,6 +49,7 @@
 
 <main class="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
 	<Landing />
+  <button onclick={sendOrderConfirmation}>send email</button>
 
 	<!-- Hero Section -->
 	<section class="py-16 px-4">

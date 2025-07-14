@@ -29,26 +29,24 @@ export async function POST({ request }) {
 		// @ts-ignore
 		const orderNumber = session.metadata.order_number;
     try{
-        const response = await fetch(`${env.BASE}/api/email`, {
+        const response = await fetch(`${env.BASE}/api/send-order-confirmation`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                to: session.customer_details?.email,
-                templateId:"d-a7116bb1d25146e4b7c3b36cba8a8e53",
-                dynamicTemplateData:{orderNum:orderNumber}
+                customerEmail: session.customer_details?.email,
+                orderId:orderNumber,
             }),
         });
-        const response2 = await fetch(`${env.BASE}/api/email`, {
+        const response2 = await fetch(`${env.BASE}/api/send-order-confirmation`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                to: "info.hyvinvointikeskusluxus@gmail.com",
-                templateId:"d-ca49e5f63326447a986deb80e626d231",
-                dynamicTemplateData:{orderNum:orderNumber}
+                customerEmail: "info.hyvinvointikeskusluxus@gmail.com",
+				orderId:orderNumber,
             }),
         });
         if (!response.ok) {
@@ -59,7 +57,7 @@ export async function POST({ request }) {
         }
     }
     catch(e){
-        console.log("error with sendgrid",e)
+        console.log("error with mailgun",e)
     }
 		try {
             console.log(`email: ${session.customer_details?.email}`)
