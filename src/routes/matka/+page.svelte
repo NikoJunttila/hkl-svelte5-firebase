@@ -184,7 +184,7 @@ import { timereserveURL } from "$lib/constants";
 			Ja aloita oma paras matkasi yhdestä puhelusta!
 			<br /><br />
             <div class="mb-4 text-center">
-                <a class="text-2xl font-bold text-red-500 underline" href="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/store%2Fpdfs%2FMuutoksen_matka_valmennus_Hyvinvointikeskus%20Luxus.pdf?alt=media&token=ca8903df-6cf6-4007-aae7-6184ec9db2aa" target="_blank">KATSO LISÄÄ TÄSTÄ INFOSTA</a>
+                <a class="text-2xl font-bold text-red-500 underline" href="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2FMuutoksen%20matka%20valmennuksen%20INFO%20(3).pdf?alt=media&token=4d9e6325-3a09-4961-af5f-797f3eb40e70" target="_blank">KATSO LISÄÄ TÄSTÄ INFOSTA</a>
             </div>
 			<img src="https://i.imgur.com/CkzmM5G.png" alt="idk" />
 		</div>

@@ -48,7 +48,6 @@
 </header>
 {#if data.text}
 <div class="bg-secondary py-4 text-center text-wrap -translate-y-1">
-<a class="font-bold mb-4 text-white underline text-2xl" target="_blank" href="https://hyvinvointikeskusluxus.sendsmaily.net/landing-pages/02e9c8ce-8acf-49ec-b808-2f5c8880a528/html/">Tilaa uutiskirje</a><br>
 <a class="font-bold mb-4 mt-2 text-white underline text-2xl" target="_blank" href="{`${timereserveURL}book/4?lang=fi`}">Ajanvaraus linkki</a>
 <p class="font-bold mt-2 text-2xl">{data.text}</p>
 </div>
