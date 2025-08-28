@@ -25,7 +25,7 @@ const imgArr = [
         </p>
 									<iframe 
 							class="w-full h-96 rounded-lg border-2 border-purple-100" 
-							src="{timereserveURL}book/4?lang=fi&id=12" 
+							src="{timereserveURL}book/4?lang=fi&id=22" 
 							title="ajanvaraus">
 						</iframe>
 			
