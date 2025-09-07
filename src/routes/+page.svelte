@@ -55,7 +55,7 @@
 				<div class="text-center">
 					<img
 						class="w-full max-w-sm mx-auto rounded-2xl shadow-lg"
-						src="https://i.imgur.com/nVwWQad.jpeg"
+						src="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2FKUVA%201.%20Etusivulle%20mun%201.%20kuva%20tilalle%20(%20siihen%20joka%20on%20perhoskuvan%20alapuolella).png?alt=media&token=9994969d-cf47-4423-b860-d9b16bd44b43"
 						alt="Susanna"
 					/>
 				</div>
@@ -267,7 +267,7 @@
 				<img
 					loading="lazy"
 					class="w-full max-w-md mx-auto rounded-xl shadow-lg"
-					src="https://i.imgur.com/ulffGhQ.png"
+					src="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2FKUVA%202.%20T%C3%A4m%C3%A4%20kuva%20tulee%20etusivulle%20sen%20mun%20aiemman%20tunne%20itsesi-loista%20itsellesi%20kuvan%20tilalle.png?alt=media&token=462690a5-c8bf-4b5f-8376-f324c66e104f"
 					alt="Kauppa"
 				/>
 			</div>
@@ -294,7 +294,7 @@
 					<div class="text-center">
 						<img
 							loading="lazy"
-							src="https://i.imgur.com/Pkr7YgK.jpeg"
+							src="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2FKuva%203.%20T%C3%A4m%C3%A4%20kuva%20etusivulle%20sivun%20alas%20siihen%20mun%20nimitiet9ojen%20tilalle..png?alt=media&token=9dd8d132-70f5-4706-9a83-897ed27af73d"
 							alt="Susanna Höijer"
 							class="w-full max-w-xs mx-auto rounded-2xl shadow-lg"
 						/>

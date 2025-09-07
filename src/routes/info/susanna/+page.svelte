@@ -140,7 +140,7 @@ import { timereserveURL } from "$lib/constants";
         <!-- Profile Image -->
         <div class="text-center mb-16">
             <div class="inline-block relative">
-                <img src="https://i.imgur.com/MDvLKIa.jpeg" alt="Susanna Höijer" class="rounded-full w-64 h-64 object-cover shadow-2xl mx-auto floating">
+                <img src="https://firebasestorage.googleapis.com/v0/b/hyvinvointikeskusluxus1.appspot.com/o/statics%2FKuva%201.%20Susanna%20sivulle%20sen%20toisen%20oman%20kuvan%20tilalle.jpg?alt=media&token=93738669-05e4-4e84-b462-70cfbcf16707" alt="Susanna Höijer" class="rounded-full w-64 h-64 object-cover shadow-2xl mx-auto floating">
                 <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-400 to-pink-400 opacity-20"></div>
             </div>
         </div>
@@ -189,9 +189,11 @@ import { timereserveURL } from "$lib/constants";
 
         <!-- Video Section -->
         <div class="text-center bg-white rounded-2xl p-8 shadow-lg card-hover">
-            <h3 class="text-2xl font-bold text-indigo-600 mb-4">🎥 Tutustu minuun paremmin</h3>
-            <a href="https://youtu.be/0Lu8cViD7SQ?si=JEFIWKG22Iw8UHSm" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Katso yrittäjän esittely
+            <h3 class="text-2xl font-bold text-indigo-600 mb-4">
+Annan tässä Sinulle lahjaksi energiahoidon äänitteen muodossa.
+</h3>
+            <a href="https://www.youtube.com/watch?v=rYSL-POYoPk" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                Ole hyvä - Kuuntele energiahoito täältä
             </a>
         </div>
     </main>
