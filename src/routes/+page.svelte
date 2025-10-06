@@ -117,7 +117,7 @@
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Muutoksen matka</h3>
 					<p class="text-gray-600">
-						3 kk rakkausmatka itseesi - valmennusohjelma henkilökohtaiseen kasvuun.
+						2 kk rakkausmatka itseesi - valmennusohjelma henkilökohtaiseen kasvuun.
 					</p>
 				</div>
 
