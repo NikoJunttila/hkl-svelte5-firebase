@@ -3,19 +3,19 @@ import { env } from '$env/dynamic/private';
 import { naiveRound } from '$lib/utils';
 
 /** @type {import('./$types').RequestHandler} */
-export async function POST({request}) {
+export async function POST({ request }) {
     const data = await request.json()
     const orderNum = data.orderNum
     const couponCode = data.couponCode
-/** @type {import("$lib/customTypes").Product[]}*/
+    /** @type {import("$lib/customTypes").Product[]}*/
     const cartItems = data.items
     const lineItems = cartItems.map((item) => {
         return {
             price_data: {
-                currency:"EUR",
-                product_data:{
-                   name: item.title,
-                   images:[item.thumbnail],
+                currency: "EUR",
+                product_data: {
+                    name: item.title,
+                    images: [item.thumbnail],
                 },
                 unit_amount: naiveRound(item.discountedPrice * 100)
             },
@@ -24,8 +24,16 @@ export async function POST({request}) {
     })
     const sessionParams = {
         line_items: lineItems,
+        // Explicitly enable payment methods including Klarna for better compatibility
+        // payment_method_types: ['card', 'klarna'], // allow all from stripe admin panel
         shipping_address_collection: {
-            allowed_countries: ["FI","CA"],
+            allowed_countries: ["FI", "CA"],
+        },
+        // Enable billing address collection - improves Klarna fraud scoring
+        billing_address_collection: 'required',
+        // Enable phone number collection - helps with Klarna verification
+        phone_number_collection: {
+            enabled: true,
         },
         mode: "payment",
         success_url: `${env.BASE}/order/${orderNum}`,
@@ -43,24 +51,26 @@ export async function POST({request}) {
             },
         ];
     }
-        // @ts-ignore
-        const session = await stripe.checkout.sessions.create(sessionParams)
-/*     const session = await stripe.checkout.sessions.create({
-        line_items:lineItems,
-        shipping_address_collection:{
-            allowed_countries: ["FI"],
-        },
-        mode:"payment",
-        success_url:`${env.BASE}/order/${orderNum}`,
-        cancel_url:`${env.BASE}/failure`,
-        metadata: {
-            order_number: orderNum // Include the order number as metadata
-        },
-        discounts: [{
-            coupon: '{{COUPON_ID}}',
-          }],
-    }) */
-    return new Response(JSON.stringify({url:session.url}),{status:200,headers:{
-        "Content-Type":"application/json"
-    }} );
+    // @ts-ignore
+    const session = await stripe.checkout.sessions.create(sessionParams)
+    /*     const session = await stripe.checkout.sessions.create({
+            line_items:lineItems,
+            shipping_address_collection:{
+                allowed_countries: ["FI"],
+            },
+            mode:"payment",
+            success_url:`${env.BASE}/order/${orderNum}`,
+            cancel_url:`${env.BASE}/failure`,
+            metadata: {
+                order_number: orderNum // Include the order number as metadata
+            },
+            discounts: [{
+                coupon: '{{COUPON_ID}}',
+              }],
+        }) */
+    return new Response(JSON.stringify({ url: session.url }), {
+        status: 200, headers: {
+            "Content-Type": "application/json"
+        }
+    });
 };

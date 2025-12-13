@@ -1,8 +1,9 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 
-import { userData } from "$lib/firebase";
+	import { userData } from '$lib/firebase';
 </script>
+
 <header class="bg-primary flex w-full justify-center items-center py-4 gap-2">
 	<div class="mr-auto ml-2">
 		<a href="/"><img width="60px" height="60px" src="/favicon.png" alt="icon" /></a>
@@ -13,9 +14,17 @@ import { userData } from "$lib/firebase";
 		>
 	</a>
 	<a class="btn btn-sm btn-secondary h-14" href="/store" rel="noreferrer"> Kauppa </a>
-	<a class="btn btn-sm btn-secondary h-14" href="/matka">Muutoksen <br> matka</a>
-	<a class="btn btn-sm btn-secondary h-14   hidden sm:flex justify-center items-center" href="/galleria"> Galleria</a>
-	<a class="btn btn-sm btn-secondary h-14   hidden sm:flex justify-center items-center" href="/enkelinkuiskaus">Enkelin kuiskaus</a>
+	<a class="btn btn-sm btn-secondary h-14" href="/matka">Muutoksen <br /> matka</a>
+	<a
+		class="btn btn-sm btn-secondary h-14 hidden sm:flex justify-center items-center"
+		href="/galleria"
+	>
+		Galleria</a
+	>
+	<a
+		class="btn btn-sm btn-secondary h-14 hidden sm:flex justify-center items-center"
+		href="/enkelinkuiskaus">Enkelin kuiskaus</a
+	>
 	<div class="relative mr-auto sm:mr-0">
 		<button class="btn btn-sm btn-secondary h-14 showMoreBtn">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 16 16"
@@ -30,39 +39,63 @@ import { userData } from "$lib/firebase";
 			>
 		</button>
 		<ul
-			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer -translate-x-[125px] sm:-translate-x-[25px] p-2 rounded">
-			<a href="/galleria" class="hover:bg-base-100 sm:hidden">Galleria</a><br>
+			class="z-[9999] bg-base-300 absolute min-w-[19ch] text-center left-0 cursor-pointer -translate-x-[125px] sm:-translate-x-[25px] p-2 rounded"
+		>
+			<a href="/galleria" class="hover:bg-base-100 sm:hidden">Galleria</a><br />
 			<a href="/enkelinkuiskaus" class="hover:bg-base-100 sm:hidden">Enkelin kuiskaus</a>
 			<a href="/info/ajanvaraus"><li class="hover:bg-base-100">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-base-100">Susanna</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-base-100">Yhteystiedot</li></a>
-			<a href="/info/tietosuoja"><li class="hover:bg-base-100"></li>tietosuoja</a>
-			<a href="/info/tilausohjeet"><li class="hover:bg-base-100">Tilausohjeet <br> & <br> Tietosuojaseloste</li></a>
+			<a href="/info/tietosuoja"
+				><li class="hover:bg-base-100"></li>
+				tietosuoja</a
+			>
+			<a href="/info/tilausohjeet"
+				><li class="hover:bg-base-100">Tilausohjeet <br /> & <br /> Tietosuojaseloste</li></a
+			>
 			<div class="avatar sm:hidden">
 				<div class="rounded w-14 h-14 hover:bg-base-100">
 					<a href="kirjaudu">
-					{#if $userData}
-					<img src={$userData.photo} alt="user" />
-					{:else}
-					<svg xmlns="http://www.w3.org/2000/svg" width="3.5rem" height="3.5rem" viewBox="0 0 24 24"><path fill="currentColor" d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"/></svg>
-					{/if}
-				</a>
+						{#if $userData}
+							<img src={$userData.photo} alt="user" />
+						{:else}
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="3.5rem"
+								height="3.5rem"
+								viewBox="0 0 24 24"
+								><path
+									fill="currentColor"
+									d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"
+								/></svg
+							>
+						{/if}
+					</a>
 				</div>
-			  </div>
+			</div>
 		</ul>
 	</div>
 	<div class="ml-auto mr-2 hidden sm:block">
 		<div class="avatar">
 			<div class="rounded w-14 h-14">
-				<a href="kirjaudu">
-				{#if $userData}
-				<img src={$userData.photo} alt="user" />
-				{:else}
-				<svg xmlns="http://www.w3.org/2000/svg" width="3.5rem" height="3.5rem" viewBox="0 0 24 24"><path fill="currentColor" d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"/></svg>
-				{/if}
-			</a>
+				<a href="/kirjaudu">
+					{#if $userData}
+						<img src={$userData.photo} alt="user" />
+					{:else}
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="3.5rem"
+							height="3.5rem"
+							viewBox="0 0 24 24"
+							><path
+								fill="currentColor"
+								d="M2 2h20v20H2zm17.5 18h.5V4H4v16h.5a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5M12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5M7.5 9.5a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0m2 7.5a3 3 0 0 0-3 3h11a3 3 0 0 0-3-3z"
+							/></svg
+						>
+					{/if}
+				</a>
 			</div>
-		  </div>
+		</div>
 	</div>
 </header>
 
@@ -82,7 +115,9 @@ import { userData } from "$lib/firebase";
 		width: 100px;
 		opacity: 0;
 		visibility: hidden;
-		transition: opacity 0.6s ease, visibility 0.6s ease;
+		transition:
+			opacity 0.6s ease,
+			visibility 0.6s ease;
 	}
 	ul:hover {
 		opacity: 1;
@@ -95,7 +130,7 @@ import { userData } from "$lib/firebase";
 		text-decoration: none !important;
 		color: inherit !important;
 	}
-	a:hover{
+	a:hover {
 		opacity: 0.9;
 	}
 </style>
