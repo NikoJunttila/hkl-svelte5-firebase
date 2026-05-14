@@ -253,46 +253,48 @@
 				tuote/tuotteet ovat meillä perillä, palautamme rahat tilillesi.
 			</p>
 
-			<h3>Palautusosoite:</h3>
-			<p>
-				Hyvinvointikeskus Luxus<br />
-				Kaltsilantie 118<br />
-				38220 SASTAMALA<br />
-				Puh. 040 7249 887<br />
-				info.hyvinvointikeskusluxus@gmail.com
-			</p>
-
 			<h3>Ongelmatilanteet:</h3>
 			<p>
-                Mikäli fyysisen tuote on kadonnut tai vioittunut kuljetuksen aikana tai se ei muuten vastaa tilaustasi, tulee sinun ilmoittaa virheestä viimeistään 14 päivän kuluessa kirjallisesti Peruutusoikeus ja palautusehdot -kohdassa mainittuun osoitteeseen tai soittamalla yhteystiedoissa mainittuun puhelinnumeroon. Jos paketti on vioittunut Postissa, on tuotteesta tehtävä välittömästi reklamaatio suoraan Postiin.
+				Mikäli fyysisen tuote on kadonnut tai vioittunut kuljetuksen aikana tai se ei muuten vastaa
+				tilaustasi, tulee sinun ilmoittaa virheestä viimeistään 14 päivän kuluessa kirjallisesti
+				Peruutusoikeus ja palautusehdot -kohdassa mainittuun osoitteeseen tai soittamalla
+				yhteystiedoissa mainittuun puhelinnumeroon. Jos paketti on vioittunut Postissa, on
+				tuotteesta tehtävä välittömästi reklamaatio suoraan Postiin.
 			</p>
 
-            <h3>Tekijänoikeudet:</h3>
-            <p>
-				Asiakas ei saa jakaa, myydä, alilisensoida tai muutoin siirtää Hyvinvointikeskus Luxusen aineettomia palveluita kolmannelle osapuolelle tai hyödyntää materiaaleja kaupallisesti. 
-
-            </p>
-            <h3>Ohjelmien ja palveluiden päivitykset:</h3>
-            <p>
-                Hyvinvointikeskus Luxus voi päivittää tai muuttaa tarpeen mukaan palveluita, kursseja, valmennuksia ja hoitoja vastatakseen ajankohtaisiin tarpeisiin.
-
-            </p>
-            <h3>Vastuuvapaus:</h3>
-            <p>
-                Hyvinvointipalveluita, hoitoja, kursseja, valmennuksia ja muita aineettomia palveluita tilattaessa Hyvinvointikeskus Luxus ei ole vastuussa Asiakkaan mahdollisista henkisistä tai fyysistä haasteista eikä Hyvinvointikeskus Luxus
-anna takeita tai ole vastuussa siitä, että palvelut, hoidot, kurssit ja valmennukset vastaanottamisen ja niiden suorittamisen jälkeen saavuttaa mahdollisesti tavoittelemiaan muutoksia. Asiakas on vastuussa saamiensa tietojen soveltamisesta ja niiden perusteella tehtyjen päätösten seurauksista.
-            </p>
-            <h3>Sovellettava laki ja riitojen ratkaiseminen:</h3>
-            <p>
-                Verkkokauppa soveltaa toimintaansa Suomen lakia. Kuluttaja voi saattaa kauppaa koskevan riita-asian, jota ei saada neuvotteluteitse ratkaistua, kuluttajariitalautakunnan (www.kuluttajariita.fi) käsiteltäväksi.
-            </p>
+			<h3>Tekijänoikeudet:</h3>
+			<p>
+				Asiakas ei saa jakaa, myydä, alilisensoida tai muutoin siirtää Hyvinvointikeskus Luxusen
+				aineettomia palveluita kolmannelle osapuolelle tai hyödyntää materiaaleja kaupallisesti.
+			</p>
+			<h3>Ohjelmien ja palveluiden päivitykset:</h3>
+			<p>
+				Hyvinvointikeskus Luxus voi päivittää tai muuttaa tarpeen mukaan palveluita, kursseja,
+				valmennuksia ja hoitoja vastatakseen ajankohtaisiin tarpeisiin.
+			</p>
+			<h3>Vastuuvapaus:</h3>
+			<p>
+				Hyvinvointipalveluita, hoitoja, kursseja, valmennuksia ja muita aineettomia palveluita
+				tilattaessa Hyvinvointikeskus Luxus ei ole vastuussa Asiakkaan mahdollisista henkisistä tai
+				fyysistä haasteista eikä Hyvinvointikeskus Luxus anna takeita tai ole vastuussa siitä, että
+				palvelut, hoidot, kurssit ja valmennukset vastaanottamisen ja niiden suorittamisen jälkeen
+				saavuttaa mahdollisesti tavoittelemiaan muutoksia. Asiakas on vastuussa saamiensa tietojen
+				soveltamisesta ja niiden perusteella tehtyjen päätösten seurauksista.
+			</p>
+			<h3>Sovellettava laki ja riitojen ratkaiseminen:</h3>
+			<p>
+				Verkkokauppa soveltaa toimintaansa Suomen lakia. Kuluttaja voi saattaa kauppaa koskevan
+				riita-asian, jota ei saada neuvotteluteitse ratkaistua, kuluttajariitalautakunnan
+				(www.kuluttajariita.fi) käsiteltäväksi.
+			</p>
 		</div>
 	</div>
 </main>
+
 <style>
-    h3{
-        font-weight: bold;
+	h3 {
+		font-weight: bold;
 		margin-bottom: 10px;
 		margin-top: 10px;
-    }
+	}
 </style>
