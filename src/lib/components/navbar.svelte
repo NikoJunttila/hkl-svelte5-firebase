@@ -8,7 +8,7 @@
 	<div class="mr-auto ml-2">
 		<a href="/"><img width="60px" height="60px" src="/favicon.png" alt="icon" /></a>
 	</div>
-	<a class="btn btn-sm btn-secondary h-14" href="/" rel="noreferrer">
+	<a class="btn btn-sm btn-secondary h-14" href="/" rel="noreferrer" aria-label="Etusivu">
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 			><path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7H4Z" /></svg
 		>
@@ -26,7 +26,7 @@
 		href="/enkelinkuiskaus">Enkelin kuiskaus</a
 	>
 	<div class="relative mr-auto sm:mr-0">
-		<button class="btn btn-sm btn-secondary h-14 showMoreBtn">
+		<button class="btn btn-sm btn-secondary h-14 showMoreBtn" aria-label="Valikko">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 16 16"
 				><path
 					fill="none"
