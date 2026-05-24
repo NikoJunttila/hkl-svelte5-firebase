@@ -187,9 +187,9 @@
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Muutoksen matka</h3>
 					<KeyBanner
+						variant="card"
 						title="7 päivän Muutoksen matka on suunniteltu siihen, että opit tuntemaan aitoa rakkauden tunnetta itseäsi kohtaan, joka on menestyksen avain elämäsi kaikille osa-alueille."
-						subtitle="Muutoksen matka valmennus
-herättää sinut siihen osaan itseäsi, joka tietää, että olet paljon enemmän."
+						subtitle="Muutoksen matka valmennus herättää sinut siihen osaan itseäsi, joka tietää, että olet paljon enemmän."
 					></KeyBanner>
 				</div>
 
@@ -197,9 +197,8 @@ herättää sinut siihen osaan itseäsi, joka tietää, että olet paljon enemm�
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Theta Healing</h3>
 					<KeyBanner
-						title="Theta Healing hoito on yksi
-muutoksen avaimista. Hoidon avulla vapaudut rajoittavista uskomuksista
-ja tunteista sekä peloista."
+						variant="card"
+						title="Theta Healing hoito on yksi muutoksen avaimista. Hoidon avulla vapaudut rajoittavista uskomuksista ja tunteista sekä peloista."
 						subtitle="Hoito vaikuttaa välittömästi ja tuo positiivisen muutoksen niin henkiseen hyvinvointiin kuin myös fyysiseen hyvinvointiin."
 					></KeyBanner>
 				</div>
@@ -208,8 +207,8 @@ ja tunteista sekä peloista."
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Tunne itsesi -Loista itsellesi</h3>
 					<KeyBanner
-						title="Tunne itsesi - Loista itsellesi hoitava valmennus
-on suunniteltu Sinulle, joka haluat syventyä traumojen käsittelyyn ja vapautua niistä.."
+						variant="card"
+						title="Tunne itsesi - Loista itsellesi hoitava valmennus on suunniteltu Sinulle, joka haluat syventyä traumojen käsittelyyn ja vapautua niistä."
 						subtitle="Tällä valmennusmatkalla avaudut sisäisesti tuntemaan itseäsi, jotta voit eheytyä ja loistaa itsellesi."
 					></KeyBanner>
 				</div>
@@ -218,10 +217,9 @@ on suunniteltu Sinulle, joka haluat syventyä traumojen käsittelyyn ja vapautua
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Voimaannuttava energiahoito</h3>
 					<KeyBanner
-						title="Voimaannittava ja puhdistava Energiahoito vapauttaa fyysiseltä keholta tunnelukkoja ja puhdistaa kehon energiakenttiä."
-						subtitle="Energiahoito tehdään puhelimitse keskusteluna sekä lähivastaanotoilla.
-Hoidossa tulee kehon energeettinen
-katselmus joka kertoo mitä hoidetaan. Tarvittaessa hoidon aikana tulee myös chakrojen aktivointia, enkelienergiahoitoa, ja viestiä. Hoito on vahva fyysisen kehon ja mielen hoitaja ja puhdistaja."
+						variant="card"
+						title="Voimaannuttava ja puhdistava Energiahoito vapauttaa fyysiseltä keholta tunnelukkoja ja puhdistaa kehon energiakenttiä."
+						subtitle="Energiahoito tehdään puhelimitse keskusteluna sekä lähivastaanotoilla. Hoidossa tulee kehon energeettinen katselmus joka kertoo mitä hoidetaan. Tarvittaessa hoidon aikana tulee myös chakrojen aktivointia, enkelienergiahoitoa, ja viestiä. Hoito on vahva fyysisen kehon ja mielen hoitaja ja puhdistaja."
 					></KeyBanner>
 				</div>
 
@@ -229,6 +227,7 @@ katselmus joka kertoo mitä hoidetaan. Tarvittaessa hoidon aikana tulee myös ch
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Enkelienergia hoito</h3>
 					<KeyBanner
+						variant="card"
 						title="Lempeä Enkelienergiahoito avaa elämääsi enkeleiden läsnäolon ja heidän antamat viestit. Hoidossa välittyy pyyteettömän rakkauden voimaa. Hoito on vahva hoitaja elämäsi eri osa-alueille."
 						subtitle="Enkelihoito tehdään puhelimitse keskusteluna tai vastaanotoilla."
 					></KeyBanner>
@@ -238,7 +237,8 @@ katselmus joka kertoo mitä hoidetaan. Tarvittaessa hoidon aikana tulee myös ch
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Energiahieronta</h3>
 					<KeyBanner
-						title="Energiahieronta avaa tehokkaasti fyysisen kehon tunnelukkoja ja puhdistaa energioita. Hoidossa käytetään hieronta otteita sekä energeettistä käsillä parantamisen hoitoa.."
+						variant="card"
+						title="Energiahieronta avaa tehokkaasti fyysisen kehon tunnelukkoja ja puhdistaa energioita. Hoidossa käytetään hieronta otteita sekä energeettistä käsillä parantamisen hoitoa."
 						subtitle="Energiahieronnan jälkeen keho on vapautunut tunnekuormasta ja mieli on kirkas ja seuraavat askeleet eteenpäin menemisen näyttää selkeältä. Energiahieronta hoito tehdään lähivastaanotoilla."
 					></KeyBanner>
 				</div>
@@ -247,8 +247,9 @@ katselmus joka kertoo mitä hoidetaan. Tarvittaessa hoidon aikana tulee myös ch
 					<div class="text-2xl mb-3">🟣</div>
 					<h3 class="text-xl font-semibold mb-3 text-gray-800">Sisäisen lapsen tulkinta</h3>
 					<KeyBanner
+						variant="card"
 						title="Sisäisen lapsen tulkinta on myös avain sisäiseen muutokseesi sillä tulkinta kertoo sen mitä Sinun oma Sisäinen lapsesi kantaa mukana. Tulkinnassa Sisäinen lapsesi tulee kuulluksi ja nähdyksi sinulle."
-						subtitle="Tulkinta sisältää harjoituksen jonka avulla voit vapautua sisäisen lapsesi kantamasta rajoittavasta tunteesta tai uskomuksesta. Tulkinta tulee sähköpostilla.."
+						subtitle="Tulkinta sisältää harjoituksen jonka avulla voit vapautua sisäisen lapsesi kantamasta rajoittavasta tunteesta tai uskomuksesta. Tulkinta tulee sähköpostilla."
 					></KeyBanner>
 				</div>
 			</div>
