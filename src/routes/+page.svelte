@@ -21,11 +21,6 @@
 						Kun muutat alitajuiset rajoittavat ohjelmoinnit saat elämääsi kokonaisvaltaisen
 						tasapainon.
 					</h1>
-					<p class="text-xl text-gray-600 leading-relaxed">
-						Näkyväksi omalle itsellesi, löytämään oma henkinen vahvuutesi sekä avaamaan sinun
-						korkeimmat tietoisuus taajuudet jolloin myös sinun fyysinen hyvinvointi voi alkaa
-						kukoistaa.
-					</p>
 					<div class="flex flex-wrap gap-4">
 						<a
 							href={`${timereserveURL}book/4?`}
